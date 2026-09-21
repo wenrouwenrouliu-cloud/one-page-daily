@@ -9,16 +9,14 @@
   <rect width="1200" height="630" fill="url(#bg)"/>
   <g opacity=".18" stroke="#87a2b5"><path d="M0 105h1200M0 210h1200M0 315h1200M0 420h1200M0 525h1200"/><path d="M150 0v630M300 0v630M450 0v630M600 0v630M750 0v630M900 0v630M1050 0v630"/></g>
   <circle cx="1000" cy="90" r="180" fill="url(#pink)" opacity=".22" filter="url(#blur)"/><circle cx="150" cy="570" r="180" fill="#38d9ff" opacity=".16" filter="url(#blur)"/>
-  <circle cx="880" cy="330" r="190" fill="none" stroke="url(#acid)" stroke-width="3" stroke-dasharray="10 12"/><circle cx="880" cy="330" r="105" fill="url(#orb)" opacity=".9"/>
+  <circle cx="890" cy="330" r="190" fill="none" stroke="url(#acid)" stroke-width="3" stroke-dasharray="10 12"/><circle cx="890" cy="330" r="105" fill="url(#orb)" opacity=".9"/>
   <path d="M70 485C220 250 350 520 520 300S870 440 1130 165" fill="none" stroke="url(#acid)" stroke-width="9" stroke-linecap="round"/>
   <path d="M70 510C220 275 350 545 520 325S870 465 1130 190" fill="none" stroke="#ff547c" stroke-width="3" opacity=".7"/>
-  <text x="76" y="112" fill="#c9ff45" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="900" letter-spacing="6">DAILY INTERNET BRIEF</text>
-  <text x="72" y="260" fill="#f4f8fa" font-family="Arial, Helvetica, sans-serif" font-size="112" font-weight="900" letter-spacing="-8">DAILY</text>
-  <text x="72" y="372" fill="url(#acid)" font-family="Arial, Helvetica, sans-serif" font-size="112" font-weight="900" letter-spacing="-8">SIGNAL</text>
-  <rect x="78" y="425" width="560" height="1" fill="#435260"/>
-  <text x="78" y="468" fill="#a4b2bd" font-family="Arial, Helvetica, sans-serif" font-size="24">热点、趋势、深读与碎片化学习。</text>
-  <text x="78" y="506" fill="#758592" font-family="Arial, Helvetica, sans-serif" font-size="20">每天覆盖同一链接，不保留旧页。</text>
-  <g transform="translate(1040 540)" fill="none" stroke="#c9ff45" stroke-width="5" stroke-linecap="round">
-    <path d="M0 18L12 6l12 12-12 12z"/><path d="M12 0v48M-6 18h36"/>
-  </g>
+  <text x="76" y="104" fill="#c9ff45" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="900" letter-spacing="5">DAILY SIGNAL · ONE PAGE TODAY</text>
+  <text x="72" y="285" fill="#f4f8fa" font-family="'PingFang SC','Hiragino Sans GB',sans-serif" font-size="126" font-weight="900" letter-spacing="4">今日信号</text>
+  <text x="78" y="340" fill="url(#acid)" font-family="'PingFang SC','Hiragino Sans GB',sans-serif" font-size="30" font-weight="800" letter-spacing="8">中文优先 · 英文原文保留</text>
+  <rect x="78" y="390" width="560" height="1" fill="#435260"/>
+  <text x="78" y="438" fill="#a4b2bd" font-family="'PingFang SC','Hiragino Sans GB',sans-serif" font-size="24">热点、趋势、深读与碎片化学习。</text>
+  <text x="78" y="478" fill="#758592" font-family="'PingFang SC','Hiragino Sans GB',sans-serif" font-size="20">每天覆盖同一链接，不保留旧页。</text>
+  <g transform="translate(1040 540)" fill="none" stroke="#c9ff45" stroke-width="5" stroke-linecap="round"><path d="M0 18L12 6l12 12-12 12z"/><path d="M12 0v48M-6 18h36"/></g>
 </svg>

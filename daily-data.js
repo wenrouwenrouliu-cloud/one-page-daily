@@ -2,7 +2,7 @@ window.DAILY_BRIEF_DATA = {
   "date": "2026-09-21",
   "dateZh": "2026年09月21日",
   "weekday": "一",
-  "updatedAt": "2026-09-21 12:57",
+  "updatedAt": "2026-09-21 13:21",
   "edition": "每日互联网简报",
   "profile": {
     "main_topics": [
@@ -30,8 +30,9 @@ window.DAILY_BRIEF_DATA = {
   },
   "focus": {
     "label": "今日 AI 主线",
-    "title": "Here’s How an AI Slowdown Could Actually Be Enforced",
-    "description": "即使大型 AI 公司愿意暂停研发，真正困难的是如何确认没有团队偷偷抢先。文章讨论一套 AI 减速机制为什么难以监督和执行。",
+    "title": "人工智能减速实际上是如何实施的",
+    "titleOriginal": "Here’s How an AI Slowdown Could Actually Be Enforced",
+    "description": "即使大型人工智能公司同意暂停，确保没有人试图偷偷前进可能会很棘手。",
     "source": "WIRED",
     "url": "https://www.wired.com/story/heres-how-an-ai-slowdown-could-actually-work/"
   },
@@ -80,9 +81,11 @@ window.DAILY_BRIEF_DATA = {
       "title": "Here’s How an AI Slowdown Could Actually Be Enforced",
       "source": "WIRED",
       "url": "https://www.wired.com/story/heres-how-an-ai-slowdown-could-actually-work/",
-      "summary": "即使大型 AI 公司愿意暂停研发，真正困难的是如何确认没有团队偷偷抢先。文章讨论一套 AI 减速机制为什么难以监督和执行。",
+      "summary": "Even if big AI companies agree to a pause, ensuring that nobody tries to sneak ahead could prove tricky.",
       "action": "只看标题、导语和关键结论，控制在 5 分钟内。",
-      "publishedText": "09-19 03:21"
+      "publishedText": "09-19 03:21",
+      "titleZh": "人工智能减速实际上是如何实施的",
+      "summaryZh": "即使大型人工智能公司同意暂停，确保没有人试图偷偷前进可能会很棘手。"
     },
     {
       "category": "创业轻浏览",
@@ -91,9 +94,11 @@ window.DAILY_BRIEF_DATA = {
       "title": "A small but growing number of founders are betting on bringing people together offline",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/09/20/a-small-but-growing-number-of-founders-are-betting-that-bringing-people-together-is-its-own-industry/",
-      "summary": "越来越多创业者押注线下连接：从游戏主机到皮具学校，看似无关，但都在尝试把被数字生活削弱的真实人际关系重新变成生意。",
+      "summary": "On the surface, a game console and a leathercraft school don't appear to have much in common. But both founders think there's money in fostering the kind of connection that technology has eroded over the last couple of decades.",
       "action": "抓住公司、融资或产品变化，不展开无关背景。",
-      "publishedText": "09-20 23:00"
+      "publishedText": "09-20 23:00",
+      "titleZh": "少数但越来越多的创始人押注于将人们线下聚集在一起",
+      "summaryZh": "从表面上看，游戏机和皮革工艺学校似乎没有太多共同点。但两位创始人都认为，培养过去几十年来技术所侵蚀的联系是有钱​​的。"
     },
     {
       "category": "全球轻浏览",
@@ -102,9 +107,11 @@ window.DAILY_BRIEF_DATA = {
       "title": "The real reason not to IPO",
       "source": "Semafor",
       "url": "https://www.semafor.com/article/09/18/2026/the-real-reason-not-to-ipo",
-      "summary": "文章借 OpenAI 和 Anthropic 的处境，讨论 AI 公司为什么可能不愿过早上市，以及资本市场会怎样改变研究型公司的节奏。",
+      "summary": "OpenAI and Anthropic were once essentially research laboratories, running on the thrill of innovation without the pressure of revenue models or Wall Street analysts.",
       "action": "知道发生了什么和各方立场，5 分钟后停止。",
-      "publishedText": "09-19 00:51"
+      "publishedText": "09-19 00:51",
+      "titleZh": "不IPO的真正原因",
+      "summaryZh": "OpenAI 和 Anthropic 曾经本质上是研究实验室，依靠创新的刺激而运行，没有收入模式或华尔街分析师的压力。"
     },
     {
       "category": "经济轻浏览",
@@ -113,9 +120,11 @@ window.DAILY_BRIEF_DATA = {
       "title": "Why Japan’s markets flipped the usual script after central bank rate hike",
       "source": "CNBC Economy",
       "url": "https://www.cnbc.com/2026/09/18/japan-rate-hike-stocks-rise-bond-yields-yen-fall.html",
-      "summary": "日本央行加息后，市场反应与常规剧本相反：日元走弱、日本国债收益率回落，同时日经 225 上涨。文章解释其中的政策与资金逻辑。",
+      "summary": "The yen weakened past 157 against the dollar, the yield on the 10-year Japanese Government Bond slipped, while the Nikkei 225 gained 1.5%.",
       "action": "记下 1 个数字、1 个趋势和它对行业的影响。",
-      "publishedText": "09-21 09:02"
+      "publishedText": "09-21 09:02",
+      "titleZh": "为什么日本市场在央行加息后改变了通常的剧本",
+      "summaryZh": "日元兑美元汇率跌破157，10年期日本政府债券收益率下滑，日经225指数上涨1.5%。"
     },
     {
       "category": "职业技能",
@@ -124,9 +133,11 @@ window.DAILY_BRIEF_DATA = {
       "title": "How AI Coding Assistants Can Help You Debug Without Writing the Code for You",
       "source": "freeCodeCamp News",
       "url": "https://www.freecodecamp.org/news/how-ai-coding-assistants-can-help-you-debug-without-writing-the-code-for-you/",
-      "summary": "AI 编程助手已经能快速修复代码错误。文章讲如何把报错、上下文和验证步骤交给助手，同时保留自己对结果的判断。",
+      "summary": "AI coding assistants have become really good at fixing code. Paste an error into an AI tool and, within seconds, you'll get a corrected implementation. That's useful when you simply want to get someth",
       "action": "完整读完后，写下 1 个明天就能实践的动作。",
-      "publishedText": "09-19 05:31"
+      "publishedText": "09-19 05:31",
+      "titleZh": "AI 编码助手如何帮助您进行调试而无需为您编写代码",
+      "summaryZh": "人工智能编码助手已经非常擅长修复代码。将错误粘贴到人工智能工具中，几秒钟之内，您就会得到正确的实现。当你只是想得到一些东西时这很有用"
     },
     {
       "category": "人文成长",
@@ -135,9 +146,11 @@ window.DAILY_BRIEF_DATA = {
       "title": "Edward Abbey on How to Live and How to Die",
       "source": "The Marginalian",
       "url": "https://www.themarginalian.org/2026/09/19/edward-abbey-live-die/",
-      "summary": "Edward Abbey 在即将被征召入伍前，穿越美国西南部去认识自己可能为之牺牲的土地。文章借他的经历讨论如何面对死亡，以及怎样才算真正活过。",
+      "summary": "The summer after graduating high school, knowing he would face conscription into the military as soon as his eighteenth birthday arrived, Edward Abbey (January 29, 1927–March 14, 1989) set out to get to know the land he was being asked to die for. He hitchhiked and hopped freight trains, rode in ramshackle busses and walked sweltering miles across the American Southwest. Upon returning home to Pennsylvania, he was promptly drafted and spent two reluctant years as a military p…",
       "action": "完整读完后，写一句自己的判断，不转述原文。",
-      "publishedText": "09-19 21:40"
+      "publishedText": "09-19 21:40",
+      "titleZh": "爱德华·艾比谈如何生与死",
+      "summaryZh": "高中毕业后的那个夏天，爱德华·艾比（Edward Abbey，1927 年 1 月 29 日至 1989 年 3 月 14 日）知道自己将在 18 岁生日到来时面临入伍，于是他开始了解这片他被要求为之献身的土地。他搭便车或跳货运火车，乘坐摇摇欲坠的公共汽车，并在闷热的天气中步行数英里穿越美国西南部。回到宾夕法尼亚州后，他立即应征入伍，并度过了两年不情愿的军事生涯……"
     }
   ],
   "latest": [
@@ -146,202 +159,224 @@ window.DAILY_BRIEF_DATA = {
       "title": "‘My total balance should be $20 million’: I invested $1.1 million in a crypto platform. Have I lost it all?",
       "url": "https://www.marketwatch.com/story/my-total-balance-should-be-worth-20-million-i-invested-1-1-million-in-a-crypto-platform-have-i-lost-it-all-d22da562?mod=mw_rss_topstories",
       "publishedText": "09-21 10:40",
-      "category": "economy"
+      "category": "economy",
+      "titleZh": "“我的总余额应该是 2000 万美元”：我在加密平台上投资了 110 万美元。我已经失去了一切吗？"
     },
     {
       "source": "CNBC Economy",
       "title": "Why Japan’s markets flipped the usual script after central bank rate hike",
       "url": "https://www.cnbc.com/2026/09/18/japan-rate-hike-stocks-rise-bond-yields-yen-fall.html",
       "publishedText": "09-21 09:02",
-      "category": "economy"
+      "category": "economy",
+      "titleZh": "为什么日本市场在央行加息后改变了通常的剧本"
     },
     {
       "source": "Semafor",
       "title": "NATO backs US, Denmark deal over Greenland security",
       "url": "https://www.semafor.com/article/09/20/2026/nato-backs-us-denmark-deal-over-greenland-security",
       "publishedText": "09-21 06:34",
-      "category": "global"
+      "category": "global",
+      "titleZh": "北约支持美国和丹麦就格陵兰安全达成协议"
     },
     {
       "source": "The Verge",
       "title": "No Dogs in Space is back to feed your need for obsessive music history",
       "url": "https://www.theverge.com/report/997948/no-dogs-in-space-is-back-punk-2-0-music-history-podcast",
       "publishedText": "09-21 05:12",
-      "category": "technology"
+      "category": "technology",
+      "titleZh": "《太空中没有狗》回来了，满足您对音乐历史的痴迷需求"
     },
     {
       "source": "TechCrunch",
       "title": "World model companies are keeping a lot of secrets",
       "url": "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/",
       "publishedText": "09-21 04:29",
-      "category": "technology"
+      "category": "technology",
+      "titleZh": "世界模特公司保守了很多秘密"
     },
     {
       "source": "Visual Capitalist",
       "title": "Ranked: MLB Ballparks From Oldest to Newest",
       "url": "https://www.visualcapitalist.com/ranked-mlb-ballparks-from-oldest-to-newest/",
       "publishedText": "09-21 02:25",
-      "category": "economy"
+      "category": "economy",
+      "titleZh": "排名：MLB 棒球场（从最旧到最新）"
     },
     {
       "source": "The Marginalian",
       "title": "Are You Working: In Defense of the Invisible Labors of Creativitiy",
       "url": "https://www.themarginalian.org/2026/09/20/leo-lionni-frederick/",
       "publishedText": "09-20 21:59",
-      "category": "humanities"
+      "category": "humanities",
+      "titleZh": "你在工作吗：捍卫无形的创造力劳动"
     },
     {
       "source": "WIRED",
       "title": "Thermacell LIV 2.0 Review: Taking My Yard Back",
       "url": "https://www.wired.com/review/thermacell-liv-smart-mosquito-repellent-system-2/",
       "publishedText": "09-20 19:07",
-      "category": "technology"
+      "category": "technology",
+      "titleZh": "Thermacell LIV 2.0 评测：夺回我的院子"
     },
     {
       "source": "freeCodeCamp News",
       "title": "How to Build a GraphRAG System with Python, Neo4j and ServiceNow",
       "url": "https://www.freecodecamp.org/news/how-to-build-a-graphrag-system-with-python-neo4j-and-servicenow/",
       "publishedText": "09-20 01:30",
-      "category": "career"
+      "category": "career",
+      "titleZh": "如何使用 Python、Neo4j 和 ServiceNow 构建 GraphRAG 系统"
     },
     {
       "source": "ProPublica",
       "title": "“Our Dear Friend Umar”: How We Uncovered That a Russian Oligarch Bankrolled Donald Trump Jr.’s Wedding",
       "url": "https://www.propublica.org/article/donald-trump-jr-wedding-umar-kremlev-reporting",
       "publishedText": "09-19 17:00",
-      "category": "investigation"
+      "category": "investigation",
+      "titleZh": "“我们亲爱的朋友奥马尔”：我们如何发现俄罗斯寡头资助小唐纳德·特朗普的婚礼"
     },
     {
       "source": "Big Think",
       "title": "The case that madness is philosophy in practice",
       "url": "https://bigthink.com/philosophy/the-case-that-madness-is-philosophy-in-practice/",
       "publishedText": "09-19 05:09",
-      "category": "humanities"
+      "category": "humanities",
+      "titleZh": "疯狂是实践中的哲学的案例"
     },
     {
       "source": "IEEE Spectrum",
       "title": "Turning Tech Talent Into Leadership Legacy",
       "url": "https://spectrum.ieee.org/tech-talent-into-leadership-legacy",
       "publishedText": "09-19 02:00",
-      "category": "science"
+      "category": "science",
+      "titleZh": "将技术人才转化为领导力遗产"
     }
   ],
   "social": {
-    "updatedAt": "2026-09-21 12:58",
+    "updatedAt": "2026-09-21 13:21",
     "platforms": [
       {
         "platform": "抖音",
         "status": "ok",
         "source": "抖音公开热榜接口",
         "note": "最火按热榜顺序；传播最快会在跨日快照后按排名变化计算。",
-        "fetchedAt": "12:57",
+        "fetchedAt": "13:21",
         "hot": [
           {
             "rank": 1,
             "title": "加入慢充旅行倡议慢慢开逛",
             "url": "https://www.douyin.com/search/%E5%8A%A0%E5%85%A5%E6%85%A2%E5%85%85%E6%97%85%E8%A1%8C%E5%80%A1%E8%AE%AE%E6%85%A2%E6%85%A2%E5%BC%80%E9%80%9B",
-            "metricValue": 12117224,
-            "metricText": "热度 1211.7万",
+            "metricValue": 12112079,
+            "metricText": "热度 1211.2万",
             "label": 3,
             "rankDelta": 0,
-            "metricDelta": 754
+            "metricDelta": -5145,
+            "titleZh": "加入慢充旅行倡议慢慢开逛"
           },
           {
             "rank": 2,
             "title": "一口中秋蟹味鲜",
             "url": "https://www.douyin.com/search/%E4%B8%80%E5%8F%A3%E4%B8%AD%E7%A7%8B%E8%9F%B9%E5%91%B3%E9%B2%9C",
-            "metricValue": 12112540,
-            "metricText": "热度 1211.3万",
+            "metricValue": 12061569,
+            "metricText": "热度 1206.2万",
             "label": 3,
             "rankDelta": 0,
-            "metricDelta": -103
+            "metricDelta": -50971,
+            "titleZh": "一口中秋蟹味鲜"
           },
           {
             "rank": 3,
             "title": "1条视频看懂平陆运河",
             "url": "https://www.douyin.com/search/1%E6%9D%A1%E8%A7%86%E9%A2%91%E7%9C%8B%E6%87%82%E5%B9%B3%E9%99%86%E8%BF%90%E6%B2%B3",
-            "metricValue": 11998524,
-            "metricText": "热度 1199.9万",
+            "metricValue": 11526265,
+            "metricText": "热度 1152.6万",
             "label": 0,
             "rankDelta": 0,
-            "metricDelta": 13090
+            "metricDelta": -472259,
+            "titleZh": "1条视频看懂平陆运河"
           },
           {
             "rank": 4,
-            "title": "皇马不敌马竞 穆里尼奥炮轰裁判",
-            "url": "https://www.douyin.com/search/%E7%9A%87%E9%A9%AC%E4%B8%8D%E6%95%8C%E9%A9%AC%E7%AB%9E%20%E7%A9%86%E9%87%8C%E5%B0%BC%E5%A5%A5%E7%82%AE%E8%BD%B0%E8%A3%81%E5%88%A4",
-            "metricValue": 11511887,
-            "metricText": "热度 1151.2万",
-            "label": 0,
-            "rankDelta": 0,
-            "metricDelta": 47
+            "title": "你们公司发月饼了吗",
+            "url": "https://www.douyin.com/search/%E4%BD%A0%E4%BB%AC%E5%85%AC%E5%8F%B8%E5%8F%91%E6%9C%88%E9%A5%BC%E4%BA%86%E5%90%97",
+            "metricValue": 11480219,
+            "metricText": "热度 1148.0万",
+            "label": 3,
+            "rankDelta": 1,
+            "metricDelta": 636382,
+            "titleZh": "你们公司发月饼了吗"
           },
           {
             "rank": 5,
-            "title": "你们公司发月饼了吗",
-            "url": "https://www.douyin.com/search/%E4%BD%A0%E4%BB%AC%E5%85%AC%E5%8F%B8%E5%8F%91%E6%9C%88%E9%A5%BC%E4%BA%86%E5%90%97",
-            "metricValue": 10843837,
-            "metricText": "热度 1084.4万",
+            "title": "桂花香飘散在风里",
+            "url": "https://www.douyin.com/search/%E6%A1%82%E8%8A%B1%E9%A6%99%E9%A3%98%E6%95%A3%E5%9C%A8%E9%A3%8E%E9%87%8C",
+            "metricValue": 10870299,
+            "metricText": "热度 1087.0万",
             "label": 3,
-            "rankDelta": 0,
-            "metricDelta": -27039
+            "rankDelta": 1,
+            "metricDelta": 117088,
+            "titleZh": "桂花香飘散在风里"
           }
         ],
         "fast": [
           {
             "rank": 16,
-            "title": "2026湾区升明月晚会",
-            "url": "https://www.douyin.com/search/2026%E6%B9%BE%E5%8C%BA%E5%8D%87%E6%98%8E%E6%9C%88%E6%99%9A%E4%BC%9A",
-            "metricValue": 8744029,
-            "metricText": "热度 874.4万",
-            "label": 3,
-            "rankDelta": null,
-            "metricDelta": null,
-            "speedLabel": "新上榜"
-          },
-          {
-            "rank": 14,
-            "title": "亚运男篮决赛韩国击败日本摘金",
-            "url": "https://www.douyin.com/search/%E4%BA%9A%E8%BF%90%E7%94%B7%E7%AF%AE%E5%86%B3%E8%B5%9B%E9%9F%A9%E5%9B%BD%E5%87%BB%E8%B4%A5%E6%97%A5%E6%9C%AC%E6%91%98%E9%87%91",
-            "metricValue": 9092084,
-            "metricText": "热度 909.2万",
-            "label": 0,
-            "rankDelta": 2,
-            "metricDelta": 247993,
-            "speedLabel": "↑2 位"
-          },
-          {
-            "rank": 19,
-            "title": "周深湾区升明月全开麦现场",
-            "url": "https://www.douyin.com/search/%E5%91%A8%E6%B7%B1%E6%B9%BE%E5%8C%BA%E5%8D%87%E6%98%8E%E6%9C%88%E5%85%A8%E5%BC%80%E9%BA%A6%E7%8E%B0%E5%9C%BA",
-            "metricValue": 8591958,
-            "metricText": "热度 859.2万",
-            "label": 3,
-            "rankDelta": 1,
-            "metricDelta": 26616,
-            "speedLabel": "↑1 位"
-          },
-          {
-            "rank": 30,
             "title": "富勒姆1:1曼联",
             "url": "https://www.douyin.com/search/%E5%AF%8C%E5%8B%92%E5%A7%861%3A1%E6%9B%BC%E8%81%94",
-            "metricValue": 7726812,
-            "metricText": "热度 772.7万",
-            "label": 0,
-            "rankDelta": null,
-            "metricDelta": null,
-            "speedLabel": "新上榜"
+            "metricValue": 8780757,
+            "metricText": "热度 878.1万",
+            "label": 3,
+            "rankDelta": 14,
+            "metricDelta": 1053945,
+            "speedLabel": "↑14 位",
+            "titleZh": "富勒姆1:1曼联"
           },
           {
-            "rank": 21,
-            "title": "吕孟洋西班牙人青年队首秀进球",
-            "url": "https://www.douyin.com/search/%E5%90%95%E5%AD%9F%E6%B4%8B%E8%A5%BF%E7%8F%AD%E7%89%99%E4%BA%BA%E9%9D%92%E5%B9%B4%E9%98%9F%E9%A6%96%E7%A7%80%E8%BF%9B%E7%90%83",
-            "metricValue": 8392322,
-            "metricText": "热度 839.2万",
-            "label": 0,
-            "rankDelta": 0,
-            "metricDelta": 28310,
-            "speedLabel": "热度 +2.8万"
+            "rank": 22,
+            "title": "MCN天团集结创大",
+            "url": "https://www.douyin.com/search/MCN%E5%A4%A9%E5%9B%A2%E9%9B%86%E7%BB%93%E5%88%9B%E5%A4%A7",
+            "metricValue": 7770977,
+            "metricText": "热度 777.1万",
+            "label": 1,
+            "rankDelta": 4,
+            "metricDelta": 25017,
+            "speedLabel": "↑4 位",
+            "titleZh": "MCN天团集结创大"
+          },
+          {
+            "rank": 20,
+            "title": "emoji动物摇",
+            "url": "https://www.douyin.com/search/emoji%E5%8A%A8%E7%89%A9%E6%91%87",
+            "metricValue": 8177034,
+            "metricText": "热度 817.7万",
+            "label": 9,
+            "rankDelta": 2,
+            "metricDelta": 270813,
+            "speedLabel": "↑2 位",
+            "titleZh": "emoji动物摇"
+          },
+          {
+            "rank": 8,
+            "title": "王楚钦回应亚运会官网标错比分",
+            "url": "https://www.douyin.com/search/%E7%8E%8B%E6%A5%9A%E9%92%A6%E5%9B%9E%E5%BA%94%E4%BA%9A%E8%BF%90%E4%BC%9A%E5%AE%98%E7%BD%91%E6%A0%87%E9%94%99%E6%AF%94%E5%88%86",
+            "metricValue": 9313492,
+            "metricText": "热度 931.3万",
+            "label": 1,
+            "rankDelta": 2,
+            "metricDelta": -26205,
+            "speedLabel": "↑2 位",
+            "titleZh": "王楚钦回应亚运会官网标错比分"
+          },
+          {
+            "rank": 6,
+            "title": "首届糯门零食大赛",
+            "url": "https://www.douyin.com/search/%E9%A6%96%E5%B1%8A%E7%B3%AF%E9%97%A8%E9%9B%B6%E9%A3%9F%E5%A4%A7%E8%B5%9B",
+            "metricValue": 10647259,
+            "metricText": "热度 1064.7万",
+            "label": 3,
+            "rankDelta": 1,
+            "metricDelta": 1144100,
+            "speedLabel": "↑1 位",
+            "titleZh": "首届糯门零食大赛"
           }
         ],
         "items": [
@@ -349,301 +384,331 @@ window.DAILY_BRIEF_DATA = {
             "rank": 1,
             "title": "加入慢充旅行倡议慢慢开逛",
             "url": "https://www.douyin.com/search/%E5%8A%A0%E5%85%A5%E6%85%A2%E5%85%85%E6%97%85%E8%A1%8C%E5%80%A1%E8%AE%AE%E6%85%A2%E6%85%A2%E5%BC%80%E9%80%9B",
-            "metricValue": 12117224,
-            "metricText": "热度 1211.7万",
+            "metricValue": 12112079,
+            "metricText": "热度 1211.2万",
             "label": 3,
             "rankDelta": 0,
-            "metricDelta": 754
+            "metricDelta": -5145,
+            "titleZh": "加入慢充旅行倡议慢慢开逛"
           },
           {
             "rank": 2,
             "title": "一口中秋蟹味鲜",
             "url": "https://www.douyin.com/search/%E4%B8%80%E5%8F%A3%E4%B8%AD%E7%A7%8B%E8%9F%B9%E5%91%B3%E9%B2%9C",
-            "metricValue": 12112540,
-            "metricText": "热度 1211.3万",
+            "metricValue": 12061569,
+            "metricText": "热度 1206.2万",
             "label": 3,
             "rankDelta": 0,
-            "metricDelta": -103
+            "metricDelta": -50971,
+            "titleZh": "一口中秋蟹味鲜"
           },
           {
             "rank": 3,
             "title": "1条视频看懂平陆运河",
             "url": "https://www.douyin.com/search/1%E6%9D%A1%E8%A7%86%E9%A2%91%E7%9C%8B%E6%87%82%E5%B9%B3%E9%99%86%E8%BF%90%E6%B2%B3",
-            "metricValue": 11998524,
-            "metricText": "热度 1199.9万",
+            "metricValue": 11526265,
+            "metricText": "热度 1152.6万",
             "label": 0,
             "rankDelta": 0,
-            "metricDelta": 13090
+            "metricDelta": -472259,
+            "titleZh": "1条视频看懂平陆运河"
           },
           {
             "rank": 4,
-            "title": "皇马不敌马竞 穆里尼奥炮轰裁判",
-            "url": "https://www.douyin.com/search/%E7%9A%87%E9%A9%AC%E4%B8%8D%E6%95%8C%E9%A9%AC%E7%AB%9E%20%E7%A9%86%E9%87%8C%E5%B0%BC%E5%A5%A5%E7%82%AE%E8%BD%B0%E8%A3%81%E5%88%A4",
-            "metricValue": 11511887,
-            "metricText": "热度 1151.2万",
-            "label": 0,
-            "rankDelta": 0,
-            "metricDelta": 47
+            "title": "你们公司发月饼了吗",
+            "url": "https://www.douyin.com/search/%E4%BD%A0%E4%BB%AC%E5%85%AC%E5%8F%B8%E5%8F%91%E6%9C%88%E9%A5%BC%E4%BA%86%E5%90%97",
+            "metricValue": 11480219,
+            "metricText": "热度 1148.0万",
+            "label": 3,
+            "rankDelta": 1,
+            "metricDelta": 636382,
+            "titleZh": "你们公司发月饼了吗"
           },
           {
             "rank": 5,
-            "title": "你们公司发月饼了吗",
-            "url": "https://www.douyin.com/search/%E4%BD%A0%E4%BB%AC%E5%85%AC%E5%8F%B8%E5%8F%91%E6%9C%88%E9%A5%BC%E4%BA%86%E5%90%97",
-            "metricValue": 10843837,
-            "metricText": "热度 1084.4万",
+            "title": "桂花香飘散在风里",
+            "url": "https://www.douyin.com/search/%E6%A1%82%E8%8A%B1%E9%A6%99%E9%A3%98%E6%95%A3%E5%9C%A8%E9%A3%8E%E9%87%8C",
+            "metricValue": 10870299,
+            "metricText": "热度 1087.0万",
             "label": 3,
-            "rankDelta": 0,
-            "metricDelta": -27039
+            "rankDelta": 1,
+            "metricDelta": 117088,
+            "titleZh": "桂花香飘散在风里"
           },
           {
             "rank": 6,
-            "title": "桂花香飘散在风里",
-            "url": "https://www.douyin.com/search/%E6%A1%82%E8%8A%B1%E9%A6%99%E9%A3%98%E6%95%A3%E5%9C%A8%E9%A3%8E%E9%87%8C",
-            "metricValue": 10753211,
-            "metricText": "热度 1075.3万",
+            "title": "首届糯门零食大赛",
+            "url": "https://www.douyin.com/search/%E9%A6%96%E5%B1%8A%E7%B3%AF%E9%97%A8%E9%9B%B6%E9%A3%9F%E5%A4%A7%E8%B5%9B",
+            "metricValue": 10647259,
+            "metricText": "热度 1064.7万",
             "label": 3,
-            "rankDelta": 0,
-            "metricDelta": -7833
+            "rankDelta": 1,
+            "metricDelta": 1144100,
+            "titleZh": "首届糯门零食大赛"
           },
           {
             "rank": 7,
-            "title": "首届糯门零食大赛",
-            "url": "https://www.douyin.com/search/%E9%A6%96%E5%B1%8A%E7%B3%AF%E9%97%A8%E9%9B%B6%E9%A3%9F%E5%A4%A7%E8%B5%9B",
-            "metricValue": 9503159,
-            "metricText": "热度 950.3万",
+            "title": "把平凡的一天拍出名场面",
+            "url": "https://www.douyin.com/search/%E6%8A%8A%E5%B9%B3%E5%87%A1%E7%9A%84%E4%B8%80%E5%A4%A9%E6%8B%8D%E5%87%BA%E5%90%8D%E5%9C%BA%E9%9D%A2",
+            "metricValue": 9419103,
+            "metricText": "热度 941.9万",
             "label": 3,
-            "rankDelta": 0,
-            "metricDelta": -60729
+            "rankDelta": 1,
+            "metricDelta": -17001,
+            "titleZh": "把平凡的一天拍出名场面"
           },
           {
             "rank": 8,
-            "title": "把平凡的一天拍出名场面",
-            "url": "https://www.douyin.com/search/%E6%8A%8A%E5%B9%B3%E5%87%A1%E7%9A%84%E4%B8%80%E5%A4%A9%E6%8B%8D%E5%87%BA%E5%90%8D%E5%9C%BA%E9%9D%A2",
-            "metricValue": 9436104,
-            "metricText": "热度 943.6万",
-            "label": 3,
-            "rankDelta": 0,
-            "metricDelta": -52003
+            "title": "王楚钦回应亚运会官网标错比分",
+            "url": "https://www.douyin.com/search/%E7%8E%8B%E6%A5%9A%E9%92%A6%E5%9B%9E%E5%BA%94%E4%BA%9A%E8%BF%90%E4%BC%9A%E5%AE%98%E7%BD%91%E6%A0%87%E9%94%99%E6%AF%94%E5%88%86",
+            "metricValue": 9313492,
+            "metricText": "热度 931.3万",
+            "label": 1,
+            "rankDelta": 2,
+            "metricDelta": -26205,
+            "titleZh": "王楚钦回应亚运会官网标错比分"
           },
           {
             "rank": 9,
             "title": "广东顺德纺织公司厂房火灾致8死",
             "url": "https://www.douyin.com/search/%E5%B9%BF%E4%B8%9C%E9%A1%BA%E5%BE%B7%E7%BA%BA%E7%BB%87%E5%85%AC%E5%8F%B8%E5%8E%82%E6%88%BF%E7%81%AB%E7%81%BE%E8%87%B48%E6%AD%BB",
-            "metricValue": 9423342,
-            "metricText": "热度 942.3万",
+            "metricValue": 9301980,
+            "metricText": "热度 930.2万",
             "label": 0,
             "rankDelta": 0,
-            "metricDelta": -5406
+            "metricDelta": -121362,
+            "titleZh": "广东顺德纺织公司厂房火灾致8死"
           },
           {
             "rank": 10,
-            "title": "王楚钦回应亚运会官网标错比分",
-            "url": "https://www.douyin.com/search/%E7%8E%8B%E6%A5%9A%E9%92%A6%E5%9B%9E%E5%BA%94%E4%BA%9A%E8%BF%90%E4%BC%9A%E5%AE%98%E7%BD%91%E6%A0%87%E9%94%99%E6%AF%94%E5%88%86",
-            "metricValue": 9339697,
-            "metricText": "热度 934.0万",
-            "label": 1,
-            "rankDelta": 0,
-            "metricDelta": -76773
+            "title": "皇马不敌马竞 穆里尼奥炮轰裁判",
+            "url": "https://www.douyin.com/search/%E7%9A%87%E9%A9%AC%E4%B8%8D%E6%95%8C%E9%A9%AC%E7%AB%9E%20%E7%A9%86%E9%87%8C%E5%B0%BC%E5%A5%A5%E7%82%AE%E8%BD%B0%E8%A3%81%E5%88%A4",
+            "metricValue": 9242492,
+            "metricText": "热度 924.2万",
+            "label": 0,
+            "rankDelta": -6,
+            "metricDelta": -2269395,
+            "titleZh": "皇马不敌马竞 穆里尼奥炮轰裁判"
           },
           {
             "rank": 11,
             "title": "歼35A官方代号：云龙",
             "url": "https://www.douyin.com/search/%E6%AD%BC35A%E5%AE%98%E6%96%B9%E4%BB%A3%E5%8F%B7%EF%BC%9A%E4%BA%91%E9%BE%99",
-            "metricValue": 9333385,
-            "metricText": "热度 933.3万",
+            "metricValue": 9223504,
+            "metricText": "热度 922.4万",
             "label": 1,
             "rankDelta": 0,
-            "metricDelta": -3516
+            "metricDelta": -109881,
+            "titleZh": "歼35A官方代号：云龙"
           },
           {
             "rank": 12,
             "title": "中美经贸磋商在美国纽约举行",
             "url": "https://www.douyin.com/search/%E4%B8%AD%E7%BE%8E%E7%BB%8F%E8%B4%B8%E7%A3%8B%E5%95%86%E5%9C%A8%E7%BE%8E%E5%9B%BD%E7%BA%BD%E7%BA%A6%E4%B8%BE%E8%A1%8C",
-            "metricValue": 9123583,
-            "metricText": "热度 912.4万",
+            "metricValue": 9118111,
+            "metricText": "热度 911.8万",
             "label": 0,
             "rankDelta": 0,
-            "metricDelta": -929
+            "metricDelta": -5472,
+            "titleZh": "中美经贸磋商在美国纽约举行"
           },
           {
             "rank": 13,
             "title": "电动车时速超25码要被抓系谣言",
             "url": "https://www.douyin.com/search/%E7%94%B5%E5%8A%A8%E8%BD%A6%E6%97%B6%E9%80%9F%E8%B6%8525%E7%A0%81%E8%A6%81%E8%A2%AB%E6%8A%93%E7%B3%BB%E8%B0%A3%E8%A8%80",
-            "metricValue": 9096182,
-            "metricText": "热度 909.6万",
+            "metricValue": 9117881,
+            "metricText": "热度 911.8万",
             "label": 16,
             "rankDelta": 0,
-            "metricDelta": 2458
+            "metricDelta": 21699,
+            "titleZh": "电动车时速超25码要被抓系谣言"
           },
           {
             "rank": 14,
             "title": "亚运男篮决赛韩国击败日本摘金",
             "url": "https://www.douyin.com/search/%E4%BA%9A%E8%BF%90%E7%94%B7%E7%AF%AE%E5%86%B3%E8%B5%9B%E9%9F%A9%E5%9B%BD%E5%87%BB%E8%B4%A5%E6%97%A5%E6%9C%AC%E6%91%98%E9%87%91",
-            "metricValue": 9092084,
-            "metricText": "热度 909.2万",
+            "metricValue": 9090289,
+            "metricText": "热度 909.0万",
             "label": 0,
-            "rankDelta": 2,
-            "metricDelta": 247993
+            "rankDelta": 0,
+            "metricDelta": -1795,
+            "titleZh": "亚运男篮决赛韩国击败日本摘金"
           },
           {
             "rank": 15,
             "title": "曼城5:3战胜桑德兰",
             "url": "https://www.douyin.com/search/%E6%9B%BC%E5%9F%8E5%3A3%E6%88%98%E8%83%9C%E6%A1%91%E5%BE%B7%E5%85%B0",
-            "metricValue": 9028526,
-            "metricText": "热度 902.9万",
+            "metricValue": 8974998,
+            "metricText": "热度 897.5万",
             "label": 0,
             "rankDelta": 0,
-            "metricDelta": -2808
+            "metricDelta": -53528,
+            "titleZh": "曼城5:3战胜桑德兰"
           },
           {
             "rank": 16,
-            "title": "2026湾区升明月晚会",
-            "url": "https://www.douyin.com/search/2026%E6%B9%BE%E5%8C%BA%E5%8D%87%E6%98%8E%E6%9C%88%E6%99%9A%E4%BC%9A",
-            "metricValue": 8744029,
-            "metricText": "热度 874.4万",
+            "title": "富勒姆1:1曼联",
+            "url": "https://www.douyin.com/search/%E5%AF%8C%E5%8B%92%E5%A7%861%3A1%E6%9B%BC%E8%81%94",
+            "metricValue": 8780757,
+            "metricText": "热度 878.1万",
             "label": 3,
-            "rankDelta": null,
-            "metricDelta": null
+            "rankDelta": 14,
+            "metricDelta": 1053945,
+            "titleZh": "富勒姆1:1曼联"
           },
           {
             "rank": 17,
             "title": "林心如苏有朋古巨基同台合唱",
             "url": "https://www.douyin.com/search/%E6%9E%97%E5%BF%83%E5%A6%82%E8%8B%8F%E6%9C%89%E6%9C%8B%E5%8F%A4%E5%B7%A8%E5%9F%BA%E5%90%8C%E5%8F%B0%E5%90%88%E5%94%B1",
-            "metricValue": 8728407,
-            "metricText": "热度 872.8万",
+            "metricValue": 8660689,
+            "metricText": "热度 866.1万",
             "label": 3,
             "rankDelta": 0,
-            "metricDelta": -208
+            "metricDelta": -67718,
+            "titleZh": "林心如苏有朋古巨基同台合唱"
           },
           {
             "rank": 18,
             "title": "也门胡塞武装称袭击沙特首都",
             "url": "https://www.douyin.com/search/%E4%B9%9F%E9%97%A8%E8%83%A1%E5%A1%9E%E6%AD%A6%E8%A3%85%E7%A7%B0%E8%A2%AD%E5%87%BB%E6%B2%99%E7%89%B9%E9%A6%96%E9%83%BD",
-            "metricValue": 8644809,
+            "metricValue": 8645064,
             "metricText": "热度 864.5万",
             "label": 3,
             "rankDelta": 0,
-            "metricDelta": -2627
+            "metricDelta": 255,
+            "titleZh": "也门胡塞武装称袭击沙特首都"
           },
           {
             "rank": 19,
             "title": "周深湾区升明月全开麦现场",
             "url": "https://www.douyin.com/search/%E5%91%A8%E6%B7%B1%E6%B9%BE%E5%8C%BA%E5%8D%87%E6%98%8E%E6%9C%88%E5%85%A8%E5%BC%80%E9%BA%A6%E7%8E%B0%E5%9C%BA",
-            "metricValue": 8591958,
-            "metricText": "热度 859.2万",
+            "metricValue": 8597541,
+            "metricText": "热度 859.8万",
             "label": 3,
-            "rankDelta": 1,
-            "metricDelta": 26616
+            "rankDelta": 0,
+            "metricDelta": 5583,
+            "titleZh": "周深湾区升明月全开麦现场"
           },
           {
             "rank": 20,
-            "title": "沙特罕见向以色列求援",
-            "url": "https://www.douyin.com/search/%E6%B2%99%E7%89%B9%E7%BD%95%E8%A7%81%E5%90%91%E4%BB%A5%E8%89%B2%E5%88%97%E6%B1%82%E6%8F%B4",
-            "metricValue": 8563390,
-            "metricText": "热度 856.3万",
-            "label": 1,
-            "rankDelta": -1,
-            "metricDelta": -46415
+            "title": "emoji动物摇",
+            "url": "https://www.douyin.com/search/emoji%E5%8A%A8%E7%89%A9%E6%91%87",
+            "metricValue": 8177034,
+            "metricText": "热度 817.7万",
+            "label": 9,
+            "rankDelta": 2,
+            "metricDelta": 270813,
+            "titleZh": "emoji动物摇"
           },
           {
             "rank": 21,
             "title": "吕孟洋西班牙人青年队首秀进球",
             "url": "https://www.douyin.com/search/%E5%90%95%E5%AD%9F%E6%B4%8B%E8%A5%BF%E7%8F%AD%E7%89%99%E4%BA%BA%E9%9D%92%E5%B9%B4%E9%98%9F%E9%A6%96%E7%A7%80%E8%BF%9B%E7%90%83",
-            "metricValue": 8392322,
-            "metricText": "热度 839.2万",
+            "metricValue": 7822908,
+            "metricText": "热度 782.3万",
             "label": 0,
             "rankDelta": 0,
-            "metricDelta": 28310
+            "metricDelta": -569414,
+            "titleZh": "吕孟洋西班牙人青年队首秀进球"
           },
           {
             "rank": 22,
-            "title": "emoji动物摇",
-            "url": "https://www.douyin.com/search/emoji%E5%8A%A8%E7%89%A9%E6%91%87",
-            "metricValue": 7906221,
-            "metricText": "热度 790.6万",
-            "label": 9,
-            "rankDelta": 0,
-            "metricDelta": -49994
+            "title": "MCN天团集结创大",
+            "url": "https://www.douyin.com/search/MCN%E5%A4%A9%E5%9B%A2%E9%9B%86%E7%BB%93%E5%88%9B%E5%A4%A7",
+            "metricValue": 7770977,
+            "metricText": "热度 777.1万",
+            "label": 1,
+            "rankDelta": 4,
+            "metricDelta": 25017,
+            "titleZh": "MCN天团集结创大"
           },
           {
             "rank": 23,
             "title": "余佳运的九月底又准时上线",
             "url": "https://www.douyin.com/search/%E4%BD%99%E4%BD%B3%E8%BF%90%E7%9A%84%E4%B9%9D%E6%9C%88%E5%BA%95%E5%8F%88%E5%87%86%E6%97%B6%E4%B8%8A%E7%BA%BF",
-            "metricValue": 7822793,
-            "metricText": "热度 782.3万",
+            "metricValue": 7767135,
+            "metricText": "热度 776.7万",
             "label": 9,
             "rankDelta": 0,
-            "metricDelta": -533
+            "metricDelta": -55658,
+            "titleZh": "余佳运的九月底又准时上线"
           },
           {
             "rank": 24,
             "title": "田曦薇好适合穿旗袍",
             "url": "https://www.douyin.com/search/%E7%94%B0%E6%9B%A6%E8%96%87%E5%A5%BD%E9%80%82%E5%90%88%E7%A9%BF%E6%97%97%E8%A2%8D",
-            "metricValue": 7796080,
-            "metricText": "热度 779.6万",
+            "metricValue": 7749649,
+            "metricText": "热度 775.0万",
             "label": 3,
             "rankDelta": 0,
-            "metricDelta": -3275
+            "metricDelta": -46431,
+            "titleZh": "田曦薇好适合穿旗袍"
           },
           {
             "rank": 25,
             "title": "潘展乐发抖音晒卫冕金牌",
             "url": "https://www.douyin.com/search/%E6%BD%98%E5%B1%95%E4%B9%90%E5%8F%91%E6%8A%96%E9%9F%B3%E6%99%92%E5%8D%AB%E5%86%95%E9%87%91%E7%89%8C",
-            "metricValue": 7769034,
-            "metricText": "热度 776.9万",
+            "metricValue": 7734263,
+            "metricText": "热度 773.4万",
             "label": 8,
             "rankDelta": 0,
-            "metricDelta": -1676
+            "metricDelta": -34771,
+            "titleZh": "潘展乐发抖音晒卫冕金牌"
           },
           {
             "rank": 26,
-            "title": "MCN天团集结创大",
-            "url": "https://www.douyin.com/search/MCN%E5%A4%A9%E5%9B%A2%E9%9B%86%E7%BB%93%E5%88%9B%E5%A4%A7",
-            "metricValue": 7745960,
-            "metricText": "热度 774.6万",
-            "label": 1,
-            "rankDelta": 0,
-            "metricDelta": 5543
+            "title": "湾区晚会众星合唱潮",
+            "url": "https://www.douyin.com/search/%E6%B9%BE%E5%8C%BA%E6%99%9A%E4%BC%9A%E4%BC%97%E6%98%9F%E5%90%88%E5%94%B1%E6%BD%AE",
+            "metricValue": 7734090,
+            "metricText": "热度 773.4万",
+            "label": 3,
+            "rankDelta": 1,
+            "metricDelta": -479,
+            "titleZh": "湾区晚会众星合唱潮"
           },
           {
             "rank": 27,
-            "title": "湾区晚会众星合唱潮",
-            "url": "https://www.douyin.com/search/%E6%B9%BE%E5%8C%BA%E6%99%9A%E4%BC%9A%E4%BC%97%E6%98%9F%E5%90%88%E5%94%B1%E6%BD%AE",
-            "metricValue": 7734569,
-            "metricText": "热度 773.5万",
+            "title": "人们常常因为有了小咪而感到幸福",
+            "url": "https://www.douyin.com/search/%E4%BA%BA%E4%BB%AC%E5%B8%B8%E5%B8%B8%E5%9B%A0%E4%B8%BA%E6%9C%89%E4%BA%86%E5%B0%8F%E5%92%AA%E8%80%8C%E6%84%9F%E5%88%B0%E5%B9%B8%E7%A6%8F",
+            "metricValue": 7729843,
+            "metricText": "热度 773.0万",
             "label": 3,
-            "rankDelta": 0,
-            "metricDelta": -215
+            "rankDelta": 1,
+            "metricDelta": -1569,
+            "titleZh": "人们常常因为有了小咪而感到幸福"
           },
           {
             "rank": 28,
-            "title": "人们常常因为有了小咪而感到幸福",
-            "url": "https://www.douyin.com/search/%E4%BA%BA%E4%BB%AC%E5%B8%B8%E5%B8%B8%E5%9B%A0%E4%B8%BA%E6%9C%89%E4%BA%86%E5%B0%8F%E5%92%AA%E8%80%8C%E6%84%9F%E5%88%B0%E5%B9%B8%E7%A6%8F",
-            "metricValue": 7731412,
-            "metricText": "热度 773.1万",
-            "label": 3,
-            "rankDelta": 0,
-            "metricDelta": -2150
+            "title": "沈佳润全开麦演绎新歌就骗我一次",
+            "url": "https://www.douyin.com/search/%E6%B2%88%E4%BD%B3%E6%B6%A6%E5%85%A8%E5%BC%80%E9%BA%A6%E6%BC%94%E7%BB%8E%E6%96%B0%E6%AD%8C%E5%B0%B1%E9%AA%97%E6%88%91%E4%B8%80%E6%AC%A1",
+            "metricValue": 7728840,
+            "metricText": "热度 772.9万",
+            "label": 0,
+            "rankDelta": 1,
+            "metricDelta": 775,
+            "titleZh": "沈佳润全开麦演绎新歌就骗我一次"
           },
           {
             "rank": 29,
-            "title": "沈佳润全开麦演绎新歌就骗我一次",
-            "url": "https://www.douyin.com/search/%E6%B2%88%E4%BD%B3%E6%B6%A6%E5%85%A8%E5%BC%80%E9%BA%A6%E6%BC%94%E7%BB%8E%E6%96%B0%E6%AD%8C%E5%B0%B1%E9%AA%97%E6%88%91%E4%B8%80%E6%AC%A1",
-            "metricValue": 7728065,
-            "metricText": "热度 772.8万",
+            "title": "2026湾区升明月晚会",
+            "url": "https://www.douyin.com/search/2026%E6%B9%BE%E5%8C%BA%E5%8D%87%E6%98%8E%E6%9C%88%E6%99%9A%E4%BC%9A",
+            "metricValue": 7714414,
+            "metricText": "热度 771.4万",
             "label": 0,
-            "rankDelta": 0,
-            "metricDelta": 3641
+            "rankDelta": -13,
+            "metricDelta": -1029615,
+            "titleZh": "2026湾区升明月晚会"
           },
           {
             "rank": 30,
-            "title": "富勒姆1:1曼联",
-            "url": "https://www.douyin.com/search/%E5%AF%8C%E5%8B%92%E5%A7%861%3A1%E6%9B%BC%E8%81%94",
-            "metricValue": 7726812,
-            "metricText": "热度 772.7万",
-            "label": 0,
+            "title": "iPhone Duo上手排面拉满",
+            "url": "https://www.douyin.com/search/iPhone%20Duo%E4%B8%8A%E6%89%8B%E6%8E%92%E9%9D%A2%E6%8B%89%E6%BB%A1",
+            "metricValue": 7711555,
+            "metricText": "热度 771.2万",
+            "label": 3,
             "rankDelta": null,
-            "metricDelta": null
+            "metricDelta": null,
+            "titleZh": "iPhone Duo上手排面拉满"
           }
         ]
       },
@@ -652,7 +717,7 @@ window.DAILY_BRIEF_DATA = {
         "status": "ok",
         "source": "TopHub 微博热搜镜像",
         "note": "微博站内接口当前被访客系统拦截，此处使用公开热搜镜像。",
-        "fetchedAt": "12:58",
+        "fetchedAt": "13:21",
         "hot": [
           {
             "rank": 1,
@@ -661,7 +726,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 8400000,
             "metricText": "热度 840万",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "闲鱼 涉黄"
           },
           {
             "rank": 2,
@@ -670,7 +736,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 1720000,
             "metricText": "热度 172万",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "把配料表中的白砂糖还给我们"
           },
           {
             "rank": 3,
@@ -679,7 +746,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 1320000,
             "metricText": "热度 132万",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "万千气象看吉林"
           },
           {
             "rank": 4,
@@ -688,7 +756,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 960000,
             "metricText": "热度 96万",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "vivo X500系列"
           },
           {
             "rank": 5,
@@ -697,7 +766,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 660000,
             "metricText": "热度 66万",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "买聚能环致妻儿死亡男子发声"
           }
         ],
         "fast": [
@@ -709,7 +779,8 @@ window.DAILY_BRIEF_DATA = {
             "metricText": "热度 840万",
             "rankDelta": 0,
             "metricDelta": 0,
-            "speedLabel": "热度领先"
+            "speedLabel": "热度领先",
+            "titleZh": "闲鱼 涉黄"
           },
           {
             "rank": 2,
@@ -719,7 +790,8 @@ window.DAILY_BRIEF_DATA = {
             "metricText": "热度 172万",
             "rankDelta": 0,
             "metricDelta": 0,
-            "speedLabel": "热度领先"
+            "speedLabel": "热度领先",
+            "titleZh": "把配料表中的白砂糖还给我们"
           },
           {
             "rank": 3,
@@ -729,7 +801,8 @@ window.DAILY_BRIEF_DATA = {
             "metricText": "热度 132万",
             "rankDelta": 0,
             "metricDelta": 0,
-            "speedLabel": "热度领先"
+            "speedLabel": "热度领先",
+            "titleZh": "万千气象看吉林"
           },
           {
             "rank": 4,
@@ -739,7 +812,8 @@ window.DAILY_BRIEF_DATA = {
             "metricText": "热度 96万",
             "rankDelta": 0,
             "metricDelta": 0,
-            "speedLabel": "热度领先"
+            "speedLabel": "热度领先",
+            "titleZh": "vivo X500系列"
           },
           {
             "rank": 5,
@@ -749,7 +823,8 @@ window.DAILY_BRIEF_DATA = {
             "metricText": "热度 66万",
             "rankDelta": 0,
             "metricDelta": 0,
-            "speedLabel": "热度领先"
+            "speedLabel": "热度领先",
+            "titleZh": "买聚能环致妻儿死亡男子发声"
           }
         ],
         "items": [
@@ -760,7 +835,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 8400000,
             "metricText": "热度 840万",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "闲鱼 涉黄"
           },
           {
             "rank": 2,
@@ -769,7 +845,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 1720000,
             "metricText": "热度 172万",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "把配料表中的白砂糖还给我们"
           },
           {
             "rank": 3,
@@ -778,7 +855,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 1320000,
             "metricText": "热度 132万",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "万千气象看吉林"
           },
           {
             "rank": 4,
@@ -787,7 +865,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 960000,
             "metricText": "热度 96万",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "vivo X500系列"
           },
           {
             "rank": 5,
@@ -796,7 +875,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 660000,
             "metricText": "热度 66万",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "买聚能环致妻儿死亡男子发声"
           },
           {
             "rank": 6,
@@ -805,7 +885,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 550000,
             "metricText": "热度 55万",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "闲鱼封了9.8万个涉黄账号"
           },
           {
             "rank": 7,
@@ -814,7 +895,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 530000,
             "metricText": "热度 53万",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "自己做饭成本其实很高"
           },
           {
             "rank": 8,
@@ -823,7 +905,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 440000,
             "metricText": "热度 44万",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "盛李豪亚运会破世界纪录夺金"
           },
           {
             "rank": 9,
@@ -832,7 +915,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 350000,
             "metricText": "热度 35万",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "你支持艾滋病纳入婚检并告知配偶吗"
           },
           {
             "rank": 10,
@@ -841,7 +925,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 320000,
             "metricText": "热度 32万",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "王楚钦赢了赢了这下输了"
           },
           {
             "rank": 11,
@@ -850,7 +935,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 300000,
             "metricText": "热度 30万",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "西贝贾国龙现身演讲"
           },
           {
             "rank": 12,
@@ -859,7 +945,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 290000,
             "metricText": "热度 29万",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "吸烟 取消学费减免"
           },
           {
             "rank": 13,
@@ -868,7 +955,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 290000,
             "metricText": "热度 29万",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "闲鱼 暗网"
           },
           {
             "rank": 14,
@@ -877,7 +965,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 290000,
             "metricText": "热度 29万",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "闲鱼 暗语"
           },
           {
             "rank": 15,
@@ -886,7 +975,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 290000,
             "metricText": "热度 29万",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "曝许嵩婚礼没有圈内好友参加"
           },
           {
             "rank": 16,
@@ -895,7 +985,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 290000,
             "metricText": "热度 29万",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "张佳宁感情时间线"
           },
           {
             "rank": 17,
@@ -904,7 +995,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 290000,
             "metricText": "热度 29万",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "王俊凯一张图晒出14个王俊凯"
           },
           {
             "rank": 18,
@@ -913,7 +1005,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 280000,
             "metricText": "热度 28万",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "肖战中国品牌人物500强第27名"
           },
           {
             "rank": 19,
@@ -922,7 +1015,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 280000,
             "metricText": "热度 28万",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "张家齐经纪人把冰冷的母爱转化成温暖的流量"
           },
           {
             "rank": 20,
@@ -931,7 +1025,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 270000,
             "metricText": "热度 27万",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "长沙女子洗澡不关门被疑炒作"
           },
           {
             "rank": 21,
@@ -940,7 +1035,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 260000,
             "metricText": "热度 26万",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "许嵩 冯禧"
           },
           {
             "rank": 22,
@@ -949,7 +1045,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 260000,
             "metricText": "热度 26万",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "有西贝门店已没有能够搓莜面员工"
           },
           {
             "rank": 23,
@@ -958,7 +1055,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 260000,
             "metricText": "热度 26万",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "突然理解了小允子对甄嬛的忠心"
           },
           {
             "rank": 24,
@@ -967,7 +1065,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 250000,
             "metricText": "热度 25万",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "突然发现以前的手机膜都白贴了"
           },
           {
             "rank": 25,
@@ -976,7 +1075,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 250000,
             "metricText": "热度 25万",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "小米18Pro系列硬件级防窥屏"
           },
           {
             "rank": 26,
@@ -985,7 +1085,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 230000,
             "metricText": "热度 23万",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "肯德基 消费者觉得好吃就下架"
           },
           {
             "rank": 27,
@@ -994,7 +1095,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 220000,
             "metricText": "热度 22万",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "沈鼓"
           },
           {
             "rank": 28,
@@ -1003,7 +1105,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 220000,
             "metricText": "热度 22万",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "贾国龙最新发声"
           },
           {
             "rank": 29,
@@ -1012,7 +1115,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 210000,
             "metricText": "热度 21万",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "王嘉尔踩到周笔畅裙子忙坏周深了"
           },
           {
             "rank": 30,
@@ -1021,7 +1125,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 210000,
             "metricText": "热度 21万",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "五角大楼附近披萨订单飙升"
           }
         ]
       },
@@ -1030,456 +1135,496 @@ window.DAILY_BRIEF_DATA = {
         "status": "ok",
         "source": "bili-cli 热门接口",
         "note": "按 B站热门列表记录播放与分享；跨日快照会补充排名变化。",
-        "fetchedAt": "12:57",
+        "fetchedAt": "13:21",
         "hot": [
           {
             "rank": 1,
-            "title": "请选择你要面对的boss",
-            "url": "https://www.bilibili.com/video/BV1RTeB6DEXN",
-            "author": "山南以北re",
-            "metricValue": 398334,
-            "shareValue": 549,
-            "metricText": "播放 39.8万 · 分享 549",
-            "rankDelta": 0,
-            "metricDelta": 248
+            "title": "天津漫展手机事件",
+            "url": "https://www.bilibili.com/video/BV1YaeN6xEWR",
+            "author": "一颗小兔娘",
+            "metricValue": 5134003,
+            "shareValue": 17110,
+            "metricText": "播放 513.4万 · 分享 1.7万",
+            "rankDelta": null,
+            "metricDelta": null,
+            "titleZh": "天津漫展手机事件"
           },
           {
             "rank": 2,
-            "title": "仅5.87MB？全新重构Bongocat，推荐所有人使用！",
-            "url": "https://www.bilibili.com/video/BV1E2eb6PE5Q",
-            "author": "宇痕冫",
-            "metricValue": 752319,
-            "shareValue": 5916,
-            "metricText": "播放 75.2万 · 分享 5916",
-            "rankDelta": 0,
-            "metricDelta": 959
+            "title": "曾沛慈｜今天是很美好的一天♥️｜2026湾区升明月《一个人想着一个人》舞台",
+            "url": "https://www.bilibili.com/video/BV1TPha6UETG",
+            "author": "曾沛慈_TsengPets",
+            "metricValue": 75774,
+            "shareValue": 575,
+            "metricText": "播放 7.6万 · 分享 575",
+            "rankDelta": 10,
+            "metricDelta": 3581,
+            "titleZh": "曾沛慈｜今天是很美好的一天♥️｜2026湾区升明月《一个人想着一个人》舞台"
           },
           {
             "rank": 3,
-            "title": "【周深｜现场】2026“湾区升明月”晚会《泪海》舞台",
-            "url": "https://www.bilibili.com/video/BV1L4ez6oE9u",
-            "author": "周深工作室",
-            "metricValue": 130477,
-            "shareValue": 1212,
-            "metricText": "播放 13.0万 · 分享 1212",
-            "rankDelta": 0,
-            "metricDelta": 436
+            "title": "周深湾区首唱粤语新歌《月亮桥》",
+            "url": "https://www.bilibili.com/video/BV1TKha67Eob",
+            "author": "电影频道融媒体中心",
+            "metricValue": 57262,
+            "shareValue": 618,
+            "metricText": "播放 5.7万 · 分享 618",
+            "rankDelta": 13,
+            "metricDelta": 3344,
+            "titleZh": "周深湾区首唱粤语新歌《月亮桥》"
           },
           {
             "rank": 4,
-            "title": "评分9.3！长大能有多苦涩？重温野比大雄的人生！咋和童年看着不一样？【瓶子君152】",
-            "url": "https://www.bilibili.com/video/BV1uhev6BEpe",
-            "author": "瓶子君152",
-            "metricValue": 903069,
-            "shareValue": 4295,
-            "metricText": "播放 90.3万 · 分享 4295",
-            "rankDelta": 0,
-            "metricDelta": 1984
+            "title": "【周深｜现场】2026“湾区升明月”晚会《泪海》舞台",
+            "url": "https://www.bilibili.com/video/BV1L4ez6oE9u",
+            "author": "周深工作室",
+            "metricValue": 137706,
+            "shareValue": 1259,
+            "metricText": "播放 13.8万 · 分享 1259",
+            "rankDelta": -1,
+            "metricDelta": 7229,
+            "titleZh": "【周深｜现场】2026“湾区升明月”晚会《泪海》舞台"
           },
           {
             "rank": 5,
-            "title": "中秋节连休3天，不调休！",
-            "url": "https://www.bilibili.com/video/BV1Ayev6fEMG",
-            "author": "cheems小电影",
-            "metricValue": 1006128,
-            "shareValue": 1181,
-            "metricText": "播放 100.6万 · 分享 1181",
-            "rankDelta": 0,
-            "metricDelta": 1778
+            "title": "仅5.87MB？全新重构Bongocat，推荐所有人使用！",
+            "url": "https://www.bilibili.com/video/BV1E2eb6PE5Q",
+            "author": "宇痕冫",
+            "metricValue": 767236,
+            "shareValue": 6008,
+            "metricText": "播放 76.7万 · 分享 6008",
+            "rankDelta": -3,
+            "metricDelta": 14917,
+            "titleZh": "仅5.87MB？全新重构Bongocat，推荐所有人使用！"
           }
         ],
         "fast": [
           {
-            "rank": 19,
-            "title": "【杀死比赛】真人演唱殿堂级宏大交响重构版《琵琶曲》",
-            "url": "https://www.bilibili.com/video/BV14Ue86DEjn",
-            "author": "巨蟒大鳞片",
-            "metricValue": 730845,
-            "shareValue": 1045,
-            "metricText": "播放 73.1万 · 分享 1045",
-            "rankDelta": 0,
-            "metricDelta": 1995,
-            "speedLabel": "热度 +1995"
+            "rank": 1,
+            "title": "天津漫展手机事件",
+            "url": "https://www.bilibili.com/video/BV1YaeN6xEWR",
+            "author": "一颗小兔娘",
+            "metricValue": 5134003,
+            "shareValue": 17110,
+            "metricText": "播放 513.4万 · 分享 1.7万",
+            "rankDelta": null,
+            "metricDelta": null,
+            "speedLabel": "新上榜",
+            "titleZh": "天津漫展手机事件"
           },
           {
-            "rank": 4,
-            "title": "评分9.3！长大能有多苦涩？重温野比大雄的人生！咋和童年看着不一样？【瓶子君152】",
-            "url": "https://www.bilibili.com/video/BV1uhev6BEpe",
-            "author": "瓶子君152",
-            "metricValue": 903069,
-            "shareValue": 4295,
-            "metricText": "播放 90.3万 · 分享 4295",
-            "rankDelta": 0,
-            "metricDelta": 1984,
-            "speedLabel": "热度 +1984"
+            "rank": 7,
+            "title": "愚人众执行官：弑神协议 —— 四执政 vs 愚人众 战斗动画【原神 HoYoFair 2026】【HoYoFair × bilibilionly】",
+            "url": "https://www.bilibili.com/video/BV18Bet6SErh",
+            "author": "KieruArt",
+            "metricValue": 79881,
+            "shareValue": 1466,
+            "metricText": "播放 8.0万 · 分享 1466",
+            "rankDelta": null,
+            "metricDelta": null,
+            "speedLabel": "新上榜",
+            "titleZh": "愚人众执行官：弑神协议 —— 四执政 vs 愚人众 战斗动画【原神 HoYoFair 2026】【HoYoFair × bilibilionly】"
           },
           {
-            "rank": 5,
-            "title": "中秋节连休3天，不调休！",
-            "url": "https://www.bilibili.com/video/BV1Ayev6fEMG",
-            "author": "cheems小电影",
-            "metricValue": 1006128,
-            "shareValue": 1181,
-            "metricText": "播放 100.6万 · 分享 1181",
-            "rankDelta": 0,
-            "metricDelta": 1778,
-            "speedLabel": "热度 +1778"
+            "rank": 8,
+            "title": "当你的天空突然下起了雨",
+            "url": "https://www.bilibili.com/video/BV1GJeh68E9c",
+            "author": "新雨--旗木家的意志",
+            "metricValue": 271681,
+            "shareValue": 10367,
+            "metricText": "播放 27.2万 · 分享 1.0万",
+            "rankDelta": null,
+            "metricDelta": null,
+            "speedLabel": "新上榜",
+            "titleZh": "当你的天空突然下起了雨"
           },
           {
-            "rank": 29,
-            "title": "《红楼梦》现代短剧版",
-            "url": "https://www.bilibili.com/video/BV1nBeS6FEK7",
-            "author": "要不你就忘了我吧",
-            "metricValue": 925034,
-            "shareValue": 4971,
-            "metricText": "播放 92.5万 · 分享 4971",
-            "rankDelta": 0,
-            "metricDelta": 997,
-            "speedLabel": "热度 +997"
+            "rank": 11,
+            "title": "《奥德赛》",
+            "url": "https://www.bilibili.com/video/BV18eev6iEFp",
+            "author": "是许木木啊",
+            "metricValue": 323851,
+            "shareValue": 865,
+            "metricText": "播放 32.4万 · 分享 865",
+            "rankDelta": null,
+            "metricDelta": null,
+            "speedLabel": "新上榜",
+            "titleZh": "《奥德赛》"
           },
           {
-            "rank": 2,
-            "title": "仅5.87MB？全新重构Bongocat，推荐所有人使用！",
-            "url": "https://www.bilibili.com/video/BV1E2eb6PE5Q",
-            "author": "宇痕冫",
-            "metricValue": 752319,
-            "shareValue": 5916,
-            "metricText": "播放 75.2万 · 分享 5916",
-            "rankDelta": 0,
-            "metricDelta": 959,
-            "speedLabel": "热度 +959"
+            "rank": 12,
+            "title": "piu piu piu manmanman曼巴曼巴",
+            "url": "https://www.bilibili.com/video/BV1WkeY6pEwt",
+            "author": "睿直",
+            "metricValue": 111440,
+            "shareValue": 8513,
+            "metricText": "播放 11.1万 · 分享 8513",
+            "rankDelta": null,
+            "metricDelta": null,
+            "speedLabel": "新上榜",
+            "titleZh": "piu piu piu manmanman曼巴曼巴"
           }
         ],
         "items": [
           {
             "rank": 1,
-            "title": "请选择你要面对的boss",
-            "url": "https://www.bilibili.com/video/BV1RTeB6DEXN",
-            "author": "山南以北re",
-            "metricValue": 398334,
-            "shareValue": 549,
-            "metricText": "播放 39.8万 · 分享 549",
-            "rankDelta": 0,
-            "metricDelta": 248
+            "title": "天津漫展手机事件",
+            "url": "https://www.bilibili.com/video/BV1YaeN6xEWR",
+            "author": "一颗小兔娘",
+            "metricValue": 5134003,
+            "shareValue": 17110,
+            "metricText": "播放 513.4万 · 分享 1.7万",
+            "rankDelta": null,
+            "metricDelta": null,
+            "titleZh": "天津漫展手机事件"
           },
           {
             "rank": 2,
-            "title": "仅5.87MB？全新重构Bongocat，推荐所有人使用！",
-            "url": "https://www.bilibili.com/video/BV1E2eb6PE5Q",
-            "author": "宇痕冫",
-            "metricValue": 752319,
-            "shareValue": 5916,
-            "metricText": "播放 75.2万 · 分享 5916",
-            "rankDelta": 0,
-            "metricDelta": 959
-          },
-          {
-            "rank": 3,
-            "title": "【周深｜现场】2026“湾区升明月”晚会《泪海》舞台",
-            "url": "https://www.bilibili.com/video/BV1L4ez6oE9u",
-            "author": "周深工作室",
-            "metricValue": 130477,
-            "shareValue": 1212,
-            "metricText": "播放 13.0万 · 分享 1212",
-            "rankDelta": 0,
-            "metricDelta": 436
-          },
-          {
-            "rank": 4,
-            "title": "评分9.3！长大能有多苦涩？重温野比大雄的人生！咋和童年看着不一样？【瓶子君152】",
-            "url": "https://www.bilibili.com/video/BV1uhev6BEpe",
-            "author": "瓶子君152",
-            "metricValue": 903069,
-            "shareValue": 4295,
-            "metricText": "播放 90.3万 · 分享 4295",
-            "rankDelta": 0,
-            "metricDelta": 1984
-          },
-          {
-            "rank": 5,
-            "title": "中秋节连休3天，不调休！",
-            "url": "https://www.bilibili.com/video/BV1Ayev6fEMG",
-            "author": "cheems小电影",
-            "metricValue": 1006128,
-            "shareValue": 1181,
-            "metricText": "播放 100.6万 · 分享 1181",
-            "rankDelta": 0,
-            "metricDelta": 1778
-          },
-          {
-            "rank": 6,
-            "title": "我的大脑变大枣",
-            "url": "https://www.bilibili.com/video/BV1rQe26XEwb",
-            "author": "高斯Goh",
-            "metricValue": 611359,
-            "shareValue": 900,
-            "metricText": "播放 61.1万 · 分享 900",
-            "rankDelta": 0,
-            "metricDelta": 826
-          },
-          {
-            "rank": 7,
-            "title": "这个广东“最低调”的海边美食之城，究竟能有多会吃？",
-            "url": "https://www.bilibili.com/video/BV1Lxeq6SEAN",
-            "author": "盗月社食遇记",
-            "metricValue": 321043,
-            "shareValue": 3085,
-            "metricText": "播放 32.1万 · 分享 3085",
-            "rankDelta": 0,
-            "metricDelta": 542
-          },
-          {
-            "rank": 8,
-            "title": "全网最听劝！根据400多万网友意见改编的中文版！田小娟SOLO2我要辞职了中文填词翻唱",
-            "url": "https://www.bilibili.com/video/BV1gYev6TEBK",
-            "author": "小黑吃CD",
-            "metricValue": 126106,
-            "shareValue": 1363,
-            "metricText": "播放 12.6万 · 分享 1363",
-            "rankDelta": 0,
-            "metricDelta": 496
-          },
-          {
-            "rank": 9,
-            "title": "变个魔术",
-            "url": "https://www.bilibili.com/video/BV1mkeU6qEFv",
-            "author": "小多莉ovo",
-            "metricValue": 342311,
-            "shareValue": 396,
-            "metricText": "播放 34.2万 · 分享 396",
-            "rankDelta": 0,
-            "metricDelta": 0
-          },
-          {
-            "rank": 10,
-            "title": "年薪2000万总裁爱上二本实习生？大后果比大结果先来！《早春晴朗》吐槽",
-            "url": "https://www.bilibili.com/video/BV1BNeQ68EGJ",
-            "author": "蜡笔小坨恰恰恰",
-            "metricValue": 1254774,
-            "shareValue": 18398,
-            "metricText": "播放 125.5万 · 分享 1.8万",
-            "rankDelta": 0,
-            "metricDelta": 630
-          },
-          {
-            "rank": 11,
-            "title": "有的人出生就在中国",
-            "url": "https://www.bilibili.com/video/BV1pXeq6wECG",
-            "author": "埃及南希",
-            "metricValue": 161988,
-            "shareValue": 150,
-            "metricText": "播放 16.2万 · 分享 150",
-            "rankDelta": 0,
-            "metricDelta": 0
-          },
-          {
-            "rank": 12,
             "title": "曾沛慈｜今天是很美好的一天♥️｜2026湾区升明月《一个人想着一个人》舞台",
             "url": "https://www.bilibili.com/video/BV1TPha6UETG",
             "author": "曾沛慈_TsengPets",
-            "metricValue": 72193,
-            "shareValue": 561,
-            "metricText": "播放 7.2万 · 分享 561",
-            "rankDelta": 0,
-            "metricDelta": 197
+            "metricValue": 75774,
+            "shareValue": 575,
+            "metricText": "播放 7.6万 · 分享 575",
+            "rankDelta": 10,
+            "metricDelta": 3581,
+            "titleZh": "曾沛慈｜今天是很美好的一天♥️｜2026湾区升明月《一个人想着一个人》舞台"
           },
           {
-            "rank": 13,
-            "title": "「白鸽归乡」哥伦比娅花样滑冰短片【HoYoFair x bilibilionly】",
-            "url": "https://www.bilibili.com/video/BV1aSei65EFe",
-            "author": "Stormz67",
-            "metricValue": 235340,
-            "shareValue": 2836,
-            "metricText": "播放 23.5万 · 分享 2836",
-            "rankDelta": 0,
-            "metricDelta": 0
-          },
-          {
-            "rank": 14,
-            "title": "【原神】「1314」哥伦比娅×桑多涅 印象曲MV 琶舞×明透【HoYoFair × bilibilionly】",
-            "url": "https://www.bilibili.com/video/BV18eeq65E1X",
-            "author": "提瓦特同人协会",
-            "metricValue": 123817,
-            "shareValue": 2576,
-            "metricText": "播放 12.4万 · 分享 2576",
-            "rankDelta": 0,
-            "metricDelta": 0
-          },
-          {
-            "rank": 15,
-            "title": "花800块雇了个泰山陪爬！究竟会有哪些服务？！",
-            "url": "https://www.bilibili.com/video/BV1EEeA64EPw",
-            "author": "Shortlegs闻韬",
-            "metricValue": 871945,
-            "shareValue": 1890,
-            "metricText": "播放 87.2万 · 分享 1890",
-            "rankDelta": 0,
-            "metricDelta": 0
-          },
-          {
-            "rank": 16,
+            "rank": 3,
             "title": "周深湾区首唱粤语新歌《月亮桥》",
             "url": "https://www.bilibili.com/video/BV1TKha67Eob",
             "author": "电影频道融媒体中心",
-            "metricValue": 53918,
-            "shareValue": 591,
-            "metricText": "播放 5.4万 · 分享 591",
-            "rankDelta": 0,
-            "metricDelta": 0
+            "metricValue": 57262,
+            "shareValue": 618,
+            "metricText": "播放 5.7万 · 分享 618",
+            "rankDelta": 13,
+            "metricDelta": 3344,
+            "titleZh": "周深湾区首唱粤语新歌《月亮桥》"
           },
           {
-            "rank": 17,
-            "title": "愤怒离职",
-            "url": "https://www.bilibili.com/video/BV13Eeb6pEqL",
-            "author": "王玉柱_真的我",
-            "metricValue": 367712,
-            "shareValue": 1211,
-            "metricText": "播放 36.8万 · 分享 1211",
-            "rankDelta": 0,
-            "metricDelta": 0
+            "rank": 4,
+            "title": "【周深｜现场】2026“湾区升明月”晚会《泪海》舞台",
+            "url": "https://www.bilibili.com/video/BV1L4ez6oE9u",
+            "author": "周深工作室",
+            "metricValue": 137706,
+            "shareValue": 1259,
+            "metricText": "播放 13.8万 · 分享 1259",
+            "rankDelta": -1,
+            "metricDelta": 7229,
+            "titleZh": "【周深｜现场】2026“湾区升明月”晚会《泪海》舞台"
           },
           {
-            "rank": 18,
+            "rank": 5,
+            "title": "仅5.87MB？全新重构Bongocat，推荐所有人使用！",
+            "url": "https://www.bilibili.com/video/BV1E2eb6PE5Q",
+            "author": "宇痕冫",
+            "metricValue": 767236,
+            "shareValue": 6008,
+            "metricText": "播放 76.7万 · 分享 6008",
+            "rankDelta": -3,
+            "metricDelta": 14917,
+            "titleZh": "仅5.87MB？全新重构Bongocat，推荐所有人使用！"
+          },
+          {
+            "rank": 6,
+            "title": "请选择你要面对的boss",
+            "url": "https://www.bilibili.com/video/BV1RTeB6DEXN",
+            "author": "山南以北re",
+            "metricValue": 402908,
+            "shareValue": 558,
+            "metricText": "播放 40.3万 · 分享 558",
+            "rankDelta": -5,
+            "metricDelta": 4574,
+            "titleZh": "请选择你要面对的boss"
+          },
+          {
+            "rank": 7,
+            "title": "愚人众执行官：弑神协议 —— 四执政 vs 愚人众 战斗动画【原神 HoYoFair 2026】【HoYoFair × bilibilionly】",
+            "url": "https://www.bilibili.com/video/BV18Bet6SErh",
+            "author": "KieruArt",
+            "metricValue": 79881,
+            "shareValue": 1466,
+            "metricText": "播放 8.0万 · 分享 1466",
+            "rankDelta": null,
+            "metricDelta": null,
+            "titleZh": "愚人众执行官：弑神协议 —— 四执政 vs 愚人众 战斗动画【原神 HoYoFair 2026】【HoYoFair × bilibilionly】"
+          },
+          {
+            "rank": 8,
+            "title": "当你的天空突然下起了雨",
+            "url": "https://www.bilibili.com/video/BV1GJeh68E9c",
+            "author": "新雨--旗木家的意志",
+            "metricValue": 271681,
+            "shareValue": 10367,
+            "metricText": "播放 27.2万 · 分享 1.0万",
+            "rankDelta": null,
+            "metricDelta": null,
+            "titleZh": "当你的天空突然下起了雨"
+          },
+          {
+            "rank": 9,
+            "title": "全网最听劝！根据400多万网友意见改编的中文版！田小娟SOLO2我要辞职了中文填词翻唱",
+            "url": "https://www.bilibili.com/video/BV1gYev6TEBK",
+            "author": "小黑吃CD",
+            "metricValue": 133224,
+            "shareValue": 1425,
+            "metricText": "播放 13.3万 · 分享 1425",
+            "rankDelta": -1,
+            "metricDelta": 7118,
+            "titleZh": "全网最听劝！根据400多万网友意见改编的中文版！田小娟SOLO2我要辞职了中文填词翻唱"
+          },
+          {
+            "rank": 10,
+            "title": "【原神】「1314」哥伦比娅×桑多涅 印象曲MV 琶舞×明透【HoYoFair × bilibilionly】",
+            "url": "https://www.bilibili.com/video/BV18eeq65E1X",
+            "author": "提瓦特同人协会",
+            "metricValue": 128884,
+            "shareValue": 2646,
+            "metricText": "播放 12.9万 · 分享 2646",
+            "rankDelta": 4,
+            "metricDelta": 5067,
+            "titleZh": "【原神】「1314」哥伦比娅×桑多涅 印象曲MV 琶舞×明透【HoYoFair × bilibilionly】"
+          },
+          {
+            "rank": 11,
+            "title": "《奥德赛》",
+            "url": "https://www.bilibili.com/video/BV18eev6iEFp",
+            "author": "是许木木啊",
+            "metricValue": 323851,
+            "shareValue": 865,
+            "metricText": "播放 32.4万 · 分享 865",
+            "rankDelta": null,
+            "metricDelta": null,
+            "titleZh": "《奥德赛》"
+          },
+          {
+            "rank": 12,
+            "title": "piu piu piu manmanman曼巴曼巴",
+            "url": "https://www.bilibili.com/video/BV1WkeY6pEwt",
+            "author": "睿直",
+            "metricValue": 111440,
+            "shareValue": 8513,
+            "metricText": "播放 11.1万 · 分享 8513",
+            "rankDelta": null,
+            "metricDelta": null,
+            "titleZh": "piu piu piu manmanman曼巴曼巴"
+          },
+          {
+            "rank": 13,
+            "title": "【初音ミク原创】说谎的你(嘘つき君)",
+            "url": "https://www.bilibili.com/video/BV19De46QEsi",
+            "author": "mayauzz",
+            "metricValue": 84315,
+            "shareValue": 493,
+            "metricText": "播放 8.4万 · 分享 493",
+            "rankDelta": null,
+            "metricDelta": null,
+            "titleZh": "【初音ミク原创】说谎的你(嘘つき君)"
+          },
+          {
+            "rank": 14,
+            "title": "不要..让老灯..带..孙子...",
+            "url": "https://www.bilibili.com/video/BV1YQeB6QERn",
+            "author": "御手洗板蓝根",
+            "metricValue": 37384,
+            "shareValue": 723,
+            "metricText": "播放 3.7万 · 分享 723",
+            "rankDelta": null,
+            "metricDelta": null,
+            "titleZh": "不要..让老灯..带..孙子..."
+          },
+          {
+            "rank": 15,
             "title": "百鬼夜行【HoYoFair × bilibilionly】",
             "url": "https://www.bilibili.com/video/BV1vUeB69EAW",
             "author": "damabilbil",
-            "metricValue": 79889,
-            "shareValue": 920,
-            "metricText": "播放 8.0万 · 分享 920",
-            "rankDelta": 0,
-            "metricDelta": 212
+            "metricValue": 83265,
+            "shareValue": 954,
+            "metricText": "播放 8.3万 · 分享 954",
+            "rankDelta": 3,
+            "metricDelta": 3376,
+            "titleZh": "百鬼夜行【HoYoFair × bilibilionly】"
+          },
+          {
+            "rank": 16,
+            "title": "评分9.3！长大能有多苦涩？重温野比大雄的人生！咋和童年看着不一样？【瓶子君152】",
+            "url": "https://www.bilibili.com/video/BV1uhev6BEpe",
+            "author": "瓶子君152",
+            "metricValue": 934563,
+            "shareValue": 4376,
+            "metricText": "播放 93.5万 · 分享 4376",
+            "rankDelta": -12,
+            "metricDelta": 31494,
+            "titleZh": "评分9.3！长大能有多苦涩？重温野比大雄的人生！咋和童年看着不一样？【瓶子君152】"
+          },
+          {
+            "rank": 17,
+            "title": "【互联网入门指南】Github入门",
+            "url": "https://www.bilibili.com/video/BV1Bvem6WERT",
+            "author": "奇异思想",
+            "metricValue": 890334,
+            "shareValue": 2734,
+            "metricText": "播放 89.0万 · 分享 2734",
+            "rankDelta": null,
+            "metricDelta": null,
+            "titleZh": "【互联网入门指南】Github入门"
+          },
+          {
+            "rank": 18,
+            "title": "想要和你低空飞行",
+            "url": "https://www.bilibili.com/video/BV1QXe46HEiv",
+            "author": "庄繁星vxh",
+            "metricValue": 153297,
+            "shareValue": 564,
+            "metricText": "播放 15.3万 · 分享 564",
+            "rankDelta": null,
+            "metricDelta": null,
+            "titleZh": "想要和你低空飞行"
           },
           {
             "rank": 19,
-            "title": "【杀死比赛】真人演唱殿堂级宏大交响重构版《琵琶曲》",
-            "url": "https://www.bilibili.com/video/BV14Ue86DEjn",
-            "author": "巨蟒大鳞片",
-            "metricValue": 730845,
-            "shareValue": 1045,
-            "metricText": "播放 73.1万 · 分享 1045",
-            "rankDelta": 0,
-            "metricDelta": 1995
-          },
-          {
-            "rank": 20,
-            "title": "我的妈妈是魔女",
-            "url": "https://www.bilibili.com/video/BV1ZFeB6xEs9",
-            "author": "猫太多本多",
-            "metricValue": 144865,
-            "shareValue": 500,
-            "metricText": "播放 14.5万 · 分享 500",
-            "rankDelta": 0,
-            "metricDelta": 502
-          },
-          {
-            "rank": 21,
-            "title": "就当作没发生过一样【AI全民制作人】",
-            "url": "https://www.bilibili.com/video/BV1Nteb6jEnf",
-            "author": "泽央zeyang",
-            "metricValue": 585533,
-            "shareValue": 3313,
-            "metricText": "播放 58.6万 · 分享 3313",
-            "rankDelta": 0,
-            "metricDelta": 365
-          },
-          {
-            "rank": 22,
             "title": "最耻辱一战！狂负日本！中国篮球有多落后？",
             "url": "https://www.bilibili.com/video/BV1Sye86WEjD",
             "author": "业余球探刀先生",
-            "metricValue": 453910,
-            "shareValue": 2109,
-            "metricText": "播放 45.4万 · 分享 2109",
-            "rankDelta": 0,
-            "metricDelta": 0
+            "metricValue": 457088,
+            "shareValue": 2121,
+            "metricText": "播放 45.7万 · 分享 2121",
+            "rankDelta": 3,
+            "metricDelta": 3178,
+            "titleZh": "最耻辱一战！狂负日本！中国篮球有多落后？"
+          },
+          {
+            "rank": 20,
+            "title": "有的人出生就在中国",
+            "url": "https://www.bilibili.com/video/BV1pXeq6wECG",
+            "author": "埃及南希",
+            "metricValue": 169606,
+            "shareValue": 157,
+            "metricText": "播放 17.0万 · 分享 157",
+            "rankDelta": -9,
+            "metricDelta": 7618,
+            "titleZh": "有的人出生就在中国"
+          },
+          {
+            "rank": 21,
+            "title": "“弹一首呐喊曲  世人争自由意 坐高楼赏风雨  执笔声想起你”",
+            "url": "https://www.bilibili.com/video/BV17FeP6bEZJ",
+            "author": "尚命非命",
+            "metricValue": 103762,
+            "shareValue": 882,
+            "metricText": "播放 10.4万 · 分享 882",
+            "rankDelta": null,
+            "metricDelta": null,
+            "titleZh": "“弹一首呐喊曲  世人争自由意 坐高楼赏风雨  执笔声想起你”"
+          },
+          {
+            "rank": 22,
+            "title": "黑暗M78 第39集【AI全民制作人】",
+            "url": "https://www.bilibili.com/video/BV12Yhv6xEuf",
+            "author": "香菜左转不送",
+            "metricValue": 47259,
+            "shareValue": 89,
+            "metricText": "播放 4.7万 · 分享 89",
+            "rankDelta": null,
+            "metricDelta": null,
+            "titleZh": "黑暗M78 第39集【AI全民制作人】"
           },
           {
             "rank": 23,
-            "title": "🐧瞬 息 鹅 宇 宙🐧",
-            "url": "https://www.bilibili.com/video/BV1Weeb6GEQV",
-            "author": "徐Toso",
-            "metricValue": 504819,
-            "shareValue": 1426,
-            "metricText": "播放 50.5万 · 分享 1426",
-            "rankDelta": 0,
-            "metricDelta": 323
+            "title": "The Life Of LqDuD 七年生涯集锦",
+            "url": "https://www.bilibili.com/video/BV1J5ev6JEGc",
+            "author": "老吊QuQ",
+            "metricValue": 61047,
+            "shareValue": 629,
+            "metricText": "播放 6.1万 · 分享 629",
+            "rankDelta": null,
+            "metricDelta": null,
+            "titleZh": "The Life Of LqDuD 七年生涯集锦"
           },
           {
             "rank": 24,
-            "title": "大快人心！时代峰峻全面停工！天下苦养成系久矣!",
-            "url": "https://www.bilibili.com/video/BV14seb6EErC",
-            "author": "伤影zzz",
-            "metricValue": 532367,
-            "shareValue": 1982,
-            "metricText": "播放 53.2万 · 分享 1982",
-            "rankDelta": 0,
-            "metricDelta": 0
+            "title": "年薪2000万总裁爱上二本实习生？大后果比大结果先来！《早春晴朗》吐槽",
+            "url": "https://www.bilibili.com/video/BV1BNeQ68EGJ",
+            "author": "蜡笔小坨恰恰恰",
+            "metricValue": 1264050,
+            "shareValue": 18583,
+            "metricText": "播放 126.4万 · 分享 1.9万",
+            "rankDelta": -14,
+            "metricDelta": 9276,
+            "titleZh": "年薪2000万总裁爱上二本实习生？大后果比大结果先来！《早春晴朗》吐槽"
           },
           {
             "rank": 25,
-            "title": "日本亚运会办砸了 男女混住引群嘲",
-            "url": "https://www.bilibili.com/video/BV1RueB6JEuZ",
-            "author": "树根龙门阵",
-            "metricValue": 295156,
-            "shareValue": 1061,
-            "metricText": "播放 29.5万 · 分享 1061",
-            "rankDelta": 0,
-            "metricDelta": 732
+            "title": "中国骑行圈“祖师爷”，唐山传奇骑者李跃中，从80年代骑到现在",
+            "url": "https://www.bilibili.com/video/BV11Ket6rECY",
+            "author": "中国探险协会",
+            "metricValue": 127390,
+            "shareValue": 1897,
+            "metricText": "播放 12.7万 · 分享 1897",
+            "rankDelta": null,
+            "metricDelta": null,
+            "titleZh": "中国骑行圈“祖师爷”，唐山传奇骑者李跃中，从80年代骑到现在"
           },
           {
             "rank": 26,
-            "title": "新三国up锐评楚汉传奇19：腿上的毛～～～都磨光啦！",
-            "url": "https://www.bilibili.com/video/BV1jxez6tEV9",
-            "author": "吃蛋挞的折棒",
-            "metricValue": 126021,
-            "shareValue": 180,
-            "metricText": "播放 12.6万 · 分享 180",
-            "rankDelta": 0,
-            "metricDelta": 0
+            "title": "⚡众 神 的 酒⚡2026年谁还能在空城计坚持到最后",
+            "url": "https://www.bilibili.com/video/BV1Kse466E19",
+            "author": "爱狂三的星总",
+            "metricValue": 152396,
+            "shareValue": 139,
+            "metricText": "播放 15.2万 · 分享 139",
+            "rankDelta": null,
+            "metricDelta": null,
+            "titleZh": "⚡众 神 的 酒⚡2026年谁还能在空城计坚持到最后"
           },
           {
             "rank": 27,
-            "title": "刘某是真的觉得可以申请专利的！！",
-            "url": "https://www.bilibili.com/video/BV1fBeS6FERv",
-            "author": "刘惟与",
-            "metricValue": 589830,
-            "shareValue": 135,
-            "metricText": "播放 59.0万 · 分享 135",
-            "rankDelta": 0,
-            "metricDelta": 0
+            "title": "⚡️琵琶曲，但是萝莉版⚡️",
+            "url": "https://www.bilibili.com/video/BV1c9eU6cEh2",
+            "author": "小智乃敲可爱",
+            "metricValue": 681339,
+            "shareValue": 21915,
+            "metricText": "播放 68.1万 · 分享 2.2万",
+            "rankDelta": null,
+            "metricDelta": null,
+            "titleZh": "⚡️琵琶曲，但是萝莉版⚡️"
           },
           {
             "rank": 28,
-            "title": "校园bgm谁是你心中的白月光",
-            "url": "https://www.bilibili.com/video/BV1guei6kEBi",
-            "author": "东方日出哇",
-            "metricValue": 607730,
-            "shareValue": 884,
-            "metricText": "播放 60.8万 · 分享 884",
-            "rankDelta": 0,
-            "metricDelta": 0
+            "title": "愤怒离职",
+            "url": "https://www.bilibili.com/video/BV13Eeb6pEqL",
+            "author": "王玉柱_真的我",
+            "metricValue": 375053,
+            "shareValue": 1247,
+            "metricText": "播放 37.5万 · 分享 1247",
+            "rankDelta": -11,
+            "metricDelta": 7341,
+            "titleZh": "愤怒离职"
           },
           {
             "rank": 29,
-            "title": "《红楼梦》现代短剧版",
-            "url": "https://www.bilibili.com/video/BV1nBeS6FEK7",
-            "author": "要不你就忘了我吧",
-            "metricValue": 925034,
-            "shareValue": 4971,
-            "metricText": "播放 92.5万 · 分享 4971",
-            "rankDelta": 0,
-            "metricDelta": 997
+            "title": "这个广东“最低调”的海边美食之城，究竟能有多会吃？",
+            "url": "https://www.bilibili.com/video/BV1Lxeq6SEAN",
+            "author": "盗月社食遇记",
+            "metricValue": 328785,
+            "shareValue": 3168,
+            "metricText": "播放 32.9万 · 分享 3168",
+            "rankDelta": -22,
+            "metricDelta": 7742,
+            "titleZh": "这个广东“最低调”的海边美食之城，究竟能有多会吃？"
           },
           {
             "rank": 30,
-            "title": "孕期猫咪踩我孕肚，我让它付出终身代价…#猫咪带人类婴儿睡觉 #猫和孩子睡觉 #猫猫和宝宝睡觉",
-            "url": "https://www.bilibili.com/video/BV1Adet6uEaZ",
-            "author": "吉米猫wo",
-            "metricValue": 1258947,
-            "shareValue": 1023,
-            "metricText": "播放 125.9万 · 分享 1023",
-            "rankDelta": 0,
-            "metricDelta": 0
+            "title": "好起来了！收到营养液和学费赞助！去长沙看苹果最新机了，出门玩真好真舒服！",
+            "url": "https://www.bilibili.com/video/BV1pdet6MEtV",
+            "author": "fan人张",
+            "metricValue": 66167,
+            "shareValue": 37,
+            "metricText": "播放 6.6万 · 分享 37",
+            "rankDelta": null,
+            "metricDelta": null,
+            "titleZh": "好起来了！收到营养液和学费赞助！去长沙看苹果最新机了，出门玩真好真舒服！"
           }
         ]
       },
@@ -1488,7 +1633,7 @@ window.DAILY_BRIEF_DATA = {
         "status": "ok",
         "source": "小红书公开探索页",
         "note": "未连接登录态，使用公开探索页顺序作为趋势代理，不代表官方全站热榜。",
-        "fetchedAt": "12:58",
+        "fetchedAt": "13:21",
         "hot": [
           {
             "rank": 1,
@@ -1497,7 +1642,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 100,
             "metricText": "探索页推荐 #1",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "酒店保洁的一生之敌"
           },
           {
             "rank": 2,
@@ -1506,7 +1652,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 99,
             "metricText": "探索页推荐 #2",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "模拟插尿管"
           },
           {
             "rank": 3,
@@ -1515,7 +1662,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 98,
             "metricText": "探索页推荐 #3",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "魔丸还是收敛了"
           },
           {
             "rank": 4,
@@ -1524,7 +1672,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 97,
             "metricText": "探索页推荐 #4",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "睡觉的时候有了意识 快要苏醒了，感觉自己的血液一股一股的流下来，一开始想继续沉睡"
           },
           {
             "rank": 5,
@@ -1533,7 +1682,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 96,
             "metricText": "探索页推荐 #5",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "评论区都是段子手，今日份快乐已送达📦"
           }
         ],
         "fast": [
@@ -1545,7 +1695,8 @@ window.DAILY_BRIEF_DATA = {
             "metricText": "探索页推荐 #1",
             "rankDelta": 0,
             "metricDelta": 0,
-            "speedLabel": "热度领先"
+            "speedLabel": "热度领先",
+            "titleZh": "酒店保洁的一生之敌"
           },
           {
             "rank": 2,
@@ -1555,7 +1706,8 @@ window.DAILY_BRIEF_DATA = {
             "metricText": "探索页推荐 #2",
             "rankDelta": 0,
             "metricDelta": 0,
-            "speedLabel": "热度领先"
+            "speedLabel": "热度领先",
+            "titleZh": "模拟插尿管"
           },
           {
             "rank": 3,
@@ -1565,7 +1717,8 @@ window.DAILY_BRIEF_DATA = {
             "metricText": "探索页推荐 #3",
             "rankDelta": 0,
             "metricDelta": 0,
-            "speedLabel": "热度领先"
+            "speedLabel": "热度领先",
+            "titleZh": "魔丸还是收敛了"
           },
           {
             "rank": 4,
@@ -1575,7 +1728,8 @@ window.DAILY_BRIEF_DATA = {
             "metricText": "探索页推荐 #4",
             "rankDelta": 0,
             "metricDelta": 0,
-            "speedLabel": "热度领先"
+            "speedLabel": "热度领先",
+            "titleZh": "睡觉的时候有了意识 快要苏醒了，感觉自己的血液一股一股的流下来，一开始想继续沉睡"
           },
           {
             "rank": 5,
@@ -1585,7 +1739,8 @@ window.DAILY_BRIEF_DATA = {
             "metricText": "探索页推荐 #5",
             "rankDelta": 0,
             "metricDelta": 0,
-            "speedLabel": "热度领先"
+            "speedLabel": "热度领先",
+            "titleZh": "评论区都是段子手，今日份快乐已送达📦"
           }
         ],
         "items": [
@@ -1596,7 +1751,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 100,
             "metricText": "探索页推荐 #1",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "酒店保洁的一生之敌"
           },
           {
             "rank": 2,
@@ -1605,7 +1761,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 99,
             "metricText": "探索页推荐 #2",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "模拟插尿管"
           },
           {
             "rank": 3,
@@ -1614,7 +1771,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 98,
             "metricText": "探索页推荐 #3",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "魔丸还是收敛了"
           },
           {
             "rank": 4,
@@ -1623,7 +1781,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 97,
             "metricText": "探索页推荐 #4",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "睡觉的时候有了意识 快要苏醒了，感觉自己的血液一股一股的流下来，一开始想继续沉睡"
           },
           {
             "rank": 5,
@@ -1632,7 +1791,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 96,
             "metricText": "探索页推荐 #5",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "评论区都是段子手，今日份快乐已送达📦"
           },
           {
             "rank": 6,
@@ -1641,7 +1801,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 95,
             "metricText": "探索页推荐 #6",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "财务部VS人事部，你会选择哪个？"
           },
           {
             "rank": 7,
@@ -1650,7 +1811,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 94,
             "metricText": "探索页推荐 #7",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "特朗普也是好起来了"
           },
           {
             "rank": 8,
@@ -1659,7 +1821,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 93,
             "metricText": "探索页推荐 #8",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "后悔没早点把漱口杯换成不锈钢的😭"
           },
           {
             "rank": 9,
@@ -1668,7 +1831,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 92,
             "metricText": "探索页推荐 #9",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "这个夏天跟小青杠上了！考眼力的时候到了……"
           },
           {
             "rank": 10,
@@ -1677,7 +1841,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 91,
             "metricText": "探索页推荐 #10",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "大哥，翻个面啊（绿衣服的大哥心态一级好）"
           },
           {
             "rank": 11,
@@ -1686,7 +1851,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 90,
             "metricText": "探索页推荐 #11",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "原来真有女明星是被老天爷追着喂饭吃的"
           },
           {
             "rank": 12,
@@ -1695,7 +1861,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 89,
             "metricText": "探索页推荐 #12",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "爱优腾芒四大平台所有偶像待播剧"
           },
           {
             "rank": 13,
@@ -1704,7 +1871,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 88,
             "metricText": "探索页推荐 #13",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "终于等到白金Pro！这配色我锁死了"
           },
           {
             "rank": 14,
@@ -1713,7 +1881,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 87,
             "metricText": "探索页推荐 #14",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "朋友在北美把Last Name改了后面试变多了"
           },
           {
             "rank": 15,
@@ -1722,7 +1891,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 86,
             "metricText": "探索页推荐 #15",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "网友：进门那一脚太帅了，有你们在很安心！"
           },
           {
             "rank": 16,
@@ -1731,7 +1901,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 85,
             "metricText": "探索页推荐 #16",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "在所有人察觉异样之前，她就已经发现不对劲了。她与他素不相识，却依然心怀善意，留意"
           },
           {
             "rank": 17,
@@ -1740,7 +1911,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 84,
             "metricText": "探索页推荐 #17",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "女生审美，1还是2啊啊啊？？？"
           },
           {
             "rank": 18,
@@ -1749,7 +1921,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 83,
             "metricText": "探索页推荐 #18",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "月薪3000"
           },
           {
             "rank": 19,
@@ -1758,7 +1931,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 82,
             "metricText": "探索页推荐 #19",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "客服哪有不疯的？真实客服对话 奇葩客户 搞笑视频 客服日常 客服外包"
           },
           {
             "rank": 20,
@@ -1767,7 +1941,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 81,
             "metricText": "探索页推荐 #20",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "这条纹怎么去掉啊……好奇怪"
           },
           {
             "rank": 21,
@@ -1776,7 +1951,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 80,
             "metricText": "探索页推荐 #21",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "中国裁判文书网民事判决书‌"
           },
           {
             "rank": 22,
@@ -1785,7 +1961,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 79,
             "metricText": "探索页推荐 #22",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "终于有人把上班的累描述出来了"
           },
           {
             "rank": 23,
@@ -1794,7 +1971,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 78,
             "metricText": "探索页推荐 #23",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "想平淡一点但又不想敷衍"
           },
           {
             "rank": 24,
@@ -1803,7 +1981,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 77,
             "metricText": "探索页推荐 #24",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "这个“小链子”，原来真有名字"
           },
           {
             "rank": 25,
@@ -1812,7 +1991,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 76,
             "metricText": "探索页推荐 #25",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "王传君秒变关谷，贡献了最大笑点"
           },
           {
             "rank": 26,
@@ -1821,7 +2001,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 75,
             "metricText": "探索页推荐 #26",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "研究生开学，父母非让我送导师芝麻油"
           },
           {
             "rank": 27,
@@ -1830,7 +2011,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 74,
             "metricText": "探索页推荐 #27",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "软软糯糯的宝宝早秋衣服，谁不爱呀🥰"
           },
           {
             "rank": 28,
@@ -1839,7 +2021,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 73,
             "metricText": "探索页推荐 #28",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "天呐吵架这里没改🥲太期待了…"
           },
           {
             "rank": 29,
@@ -1848,7 +2031,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 72,
             "metricText": "探索页推荐 #29",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "让客户失去沟通欲望的头像"
           },
           {
             "rank": 30,
@@ -1857,7 +2041,8 @@ window.DAILY_BRIEF_DATA = {
             "metricValue": 71,
             "metricText": "探索页推荐 #30",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "娄艺潇居然也是艺名？！"
           }
         ]
       },
@@ -1866,7 +2051,7 @@ window.DAILY_BRIEF_DATA = {
         "status": "ok",
         "source": "Trends24 全球 X 趋势",
         "note": "按全球趋势公开快照整理；榜单时间：47 minutes ago。",
-        "fetchedAt": "12:58",
+        "fetchedAt": "13:21",
         "hot": [
           {
             "rank": 1,
@@ -1877,7 +2062,8 @@ window.DAILY_BRIEF_DATA = {
             "intradayRankDelta": 0,
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "Colts"
           },
           {
             "rank": 2,
@@ -1888,7 +2074,8 @@ window.DAILY_BRIEF_DATA = {
             "intradayRankDelta": 0,
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "酋长队"
           },
           {
             "rank": 3,
@@ -1899,7 +2086,8 @@ window.DAILY_BRIEF_DATA = {
             "intradayRankDelta": 0,
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "#ジャニーズ好き顔9選"
           },
           {
             "rank": 4,
@@ -1910,7 +2098,8 @@ window.DAILY_BRIEF_DATA = {
             "intradayRankDelta": 3,
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "马霍姆斯"
           },
           {
             "rank": 5,
@@ -1921,7 +2110,8 @@ window.DAILY_BRIEF_DATA = {
             "intradayRankDelta": 4,
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "#重新计算DUSU结果"
           }
         ],
         "fast": [
@@ -1935,7 +2125,8 @@ window.DAILY_BRIEF_DATA = {
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
             "metricDelta": 0,
-            "speedLabel": "↑27 位"
+            "speedLabel": "↑27 位",
+            "titleZh": "巴特克"
           },
           {
             "rank": 20,
@@ -1947,7 +2138,8 @@ window.DAILY_BRIEF_DATA = {
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
             "metricDelta": 0,
-            "speedLabel": "↑26 位"
+            "speedLabel": "↑26 位",
+            "titleZh": "教主の座"
           },
           {
             "rank": 11,
@@ -1959,7 +2151,8 @@ window.DAILY_BRIEF_DATA = {
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
             "metricDelta": 0,
-            "speedLabel": "新上榜"
+            "speedLabel": "新上榜",
+            "titleZh": "特雷德韦尔"
           },
           {
             "rank": 19,
@@ -1971,7 +2164,8 @@ window.DAILY_BRIEF_DATA = {
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
             "metricDelta": 0,
-            "speedLabel": "↑20 位"
+            "speedLabel": "↑20 位",
+            "titleZh": "緊急速報"
           },
           {
             "rank": 12,
@@ -1983,7 +2177,8 @@ window.DAILY_BRIEF_DATA = {
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
             "metricDelta": 0,
-            "speedLabel": "新上榜"
+            "speedLabel": "新上榜",
+            "titleZh": "谢恩·斯泰肯"
           }
         ],
         "items": [
@@ -1996,7 +2191,8 @@ window.DAILY_BRIEF_DATA = {
             "intradayRankDelta": 0,
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "Colts"
           },
           {
             "rank": 2,
@@ -2007,7 +2203,8 @@ window.DAILY_BRIEF_DATA = {
             "intradayRankDelta": 0,
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "酋长队"
           },
           {
             "rank": 3,
@@ -2018,7 +2215,8 @@ window.DAILY_BRIEF_DATA = {
             "intradayRankDelta": 0,
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "#ジャニーズ好き顔9選"
           },
           {
             "rank": 4,
@@ -2029,7 +2227,8 @@ window.DAILY_BRIEF_DATA = {
             "intradayRankDelta": 3,
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "马霍姆斯"
           },
           {
             "rank": 5,
@@ -2040,7 +2239,8 @@ window.DAILY_BRIEF_DATA = {
             "intradayRankDelta": 4,
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "#重新计算DUSU结果"
           },
           {
             "rank": 6,
@@ -2051,7 +2251,8 @@ window.DAILY_BRIEF_DATA = {
             "intradayRankDelta": 2,
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "#YouthDemandDUSURecount"
           },
           {
             "rank": 7,
@@ -2062,7 +2263,8 @@ window.DAILY_BRIEF_DATA = {
             "intradayRankDelta": -2,
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "敬老の日"
           },
           {
             "rank": 8,
@@ -2073,7 +2275,8 @@ window.DAILY_BRIEF_DATA = {
             "intradayRankDelta": -4,
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "#GranHermanoUY"
           },
           {
             "rank": 9,
@@ -2084,7 +2287,8 @@ window.DAILY_BRIEF_DATA = {
             "intradayRankDelta": 3,
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "丹尼尔·琼斯"
           },
           {
             "rank": 10,
@@ -2095,7 +2299,8 @@ window.DAILY_BRIEF_DATA = {
             "intradayRankDelta": -4,
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "#灯笼"
           },
           {
             "rank": 11,
@@ -2106,7 +2311,8 @@ window.DAILY_BRIEF_DATA = {
             "intradayRankDelta": null,
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "特雷德韦尔"
           },
           {
             "rank": 12,
@@ -2117,7 +2323,8 @@ window.DAILY_BRIEF_DATA = {
             "intradayRankDelta": null,
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "谢恩·斯泰肯"
           },
           {
             "rank": 13,
@@ -2128,7 +2335,8 @@ window.DAILY_BRIEF_DATA = {
             "intradayRankDelta": null,
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "肯尼思·沃克"
           },
           {
             "rank": 14,
@@ -2139,7 +2347,8 @@ window.DAILY_BRIEF_DATA = {
             "intradayRankDelta": 16,
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "PONDPHUWIN CP 主持人"
           },
           {
             "rank": 15,
@@ -2150,7 +2359,8 @@ window.DAILY_BRIEF_DATA = {
             "intradayRankDelta": -4,
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "Kelce"
           },
           {
             "rank": 16,
@@ -2161,7 +2371,8 @@ window.DAILY_BRIEF_DATA = {
             "intradayRankDelta": null,
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "埃内斯托"
           },
           {
             "rank": 17,
@@ -2172,7 +2383,8 @@ window.DAILY_BRIEF_DATA = {
             "intradayRankDelta": -2,
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "台風の影響"
           },
           {
             "rank": 18,
@@ -2183,7 +2395,8 @@ window.DAILY_BRIEF_DATA = {
             "intradayRankDelta": 2,
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "山田涼介"
           },
           {
             "rank": 19,
@@ -2194,7 +2407,8 @@ window.DAILY_BRIEF_DATA = {
             "intradayRankDelta": 20,
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "緊急速報"
           },
           {
             "rank": 20,
@@ -2205,7 +2419,8 @@ window.DAILY_BRIEF_DATA = {
             "intradayRankDelta": 26,
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "教主の座"
           },
           {
             "rank": 21,
@@ -2216,7 +2431,8 @@ window.DAILY_BRIEF_DATA = {
             "intradayRankDelta": 27,
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "巴特克"
           },
           {
             "rank": 22,
@@ -2227,7 +2443,8 @@ window.DAILY_BRIEF_DATA = {
             "intradayRankDelta": -12,
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "充电器"
           },
           {
             "rank": 23,
@@ -2238,7 +2455,8 @@ window.DAILY_BRIEF_DATA = {
             "intradayRankDelta": -10,
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "2Y8M 带 KNP"
           },
           {
             "rank": 24,
@@ -2249,7 +2467,8 @@ window.DAILY_BRIEF_DATA = {
             "intradayRankDelta": -8,
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "乔纳森·泰勒"
           },
           {
             "rank": 25,
@@ -2260,7 +2479,8 @@ window.DAILY_BRIEF_DATA = {
             "intradayRankDelta": -1,
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "道枝駿佑"
           },
           {
             "rank": 26,
@@ -2271,7 +2491,8 @@ window.DAILY_BRIEF_DATA = {
             "intradayRankDelta": 7,
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "柯林斯沃斯"
           },
           {
             "rank": 27,
@@ -2282,7 +2503,8 @@ window.DAILY_BRIEF_DATA = {
             "intradayRankDelta": -2,
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "巴尔·桑斯卡·肯德拉"
           },
           {
             "rank": 28,
@@ -2293,7 +2515,8 @@ window.DAILY_BRIEF_DATA = {
             "intradayRankDelta": null,
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "在玹返回米兰"
           },
           {
             "rank": 29,
@@ -2304,7 +2527,8 @@ window.DAILY_BRIEF_DATA = {
             "intradayRankDelta": null,
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "キングリア"
           },
           {
             "rank": 30,
@@ -2315,7 +2539,8 @@ window.DAILY_BRIEF_DATA = {
             "intradayRankDelta": -3,
             "snapshotLabel": "47 minutes ago",
             "rankDelta": 0,
-            "metricDelta": 0
+            "metricDelta": 0,
+            "titleZh": "梵文 Peedhi"
           }
         ]
       }
