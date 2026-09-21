@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>方案 A｜复古工业档案</title>
+<style>
+:root{--cream:#f2e8d2;--paper:#fbf6e9;--brown:#4f3727;--brown2:#6b513d;--ink:#211710;--rust:#9e3f2f;--gold:#b78a4a;--line:#b7a98f}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:"Avenir Next","PingFang SC",sans-serif;background:var(--cream);line-height:1.6}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.35;background:repeating-linear-gradient(0deg,rgba(79,55,39,.035) 0,rgba(79,55,39,.035) 1px,transparent 1px,transparent 5px),repeating-linear-gradient(90deg,rgba(79,55,39,.022) 0,rgba(79,55,39,.022) 1px,transparent 1px,transparent 7px)}
+a{color:inherit;text-decoration:none;border-bottom:1px solid rgba(79,55,39,.35)}a:hover{color:var(--rust)}
+.wrap{width:min(1280px,calc(100% - 34px));margin:auto}
+.top{position:sticky;top:0;z-index:10;background:rgba(242,232,210,.93);border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
+.topin{height:58px;display:flex;align-items:center;justify-content:space-between;font:700 11px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.16em;text-transform:uppercase}
+.topin b{color:var(--rust)}.topin span{color:var(--brown2)}
+.hero{background:linear-gradient(120deg,#24170f,#513728 62%,#75553f);color:var(--cream);padding:64px 0 0;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;right:-150px;top:-170px;width:470px;height:470px;border:1px solid rgba(255,255,255,.18);border-radius:50%;box-shadow:0 0 0 40px rgba(255,255,255,.03),0 0 0 80px rgba(255,255,255,.025)}
+.herogrid{display:grid;grid-template-columns:1.4fr .6fr;gap:50px;align-items:end}.kicker{font:800 11px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.2em;text-transform:uppercase;color:#d5ad6e}
+h1{margin:16px 0 0;font:500 clamp(62px,11vw,144px)/.85 Georgia,"Songti SC",serif;letter-spacing:-.07em;text-transform:uppercase}
+h1 small{display:block;font:700 22px/1.2 "PingFang SC",sans-serif;letter-spacing:.08em;margin:20px 0 0 8px}.hero p{max-width:700px;color:#d9ccb9;font-size:16px;margin:26px 0 34px 8px}
+.heroaside{padding-bottom:18px}.catalogno{border-top:1px solid rgba(255,255,255,.24);border-bottom:1px solid rgba(255,255,255,.24);padding:15px 0;font:700 12px/1.5 ui-monospace,monospace;letter-spacing:.1em}
+.catalogno strong{display:block;font:500 44px/1 Georgia,serif;color:#f2ca87;margin:6px 0}.herofoot{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid rgba(255,255,255,.18);margin-top:48px}
+.herofoot div{padding:17px 16px;border-right:1px solid rgba(255,255,255,.18);font:700 11px/1.5 ui-monospace,monospace;text-transform:uppercase}.herofoot div:first-child{padding-left:0}.herofoot small{display:block;color:#bca88e;font-weight:500;margin-top:5px}
+main{padding:56px 0 90px}.section{margin:0 0 72px}.sechead{display:grid;grid-template-columns:170px 1fr;border-top:2px solid var(--brown);padding-top:15px;margin-bottom:24px}
+.secnum{font:800 12px/1.4 ui-monospace,monospace;color:var(--rust);letter-spacing:.14em}.sechead h2{margin:0;font:500 clamp(38px,6vw,72px)/1 Georgia,"Songti SC",serif;letter-spacing:-.05em}.sechead p{grid-column:2;margin:7px 0 0;color:var(--brown2);font-size:13px}
+.entry{display:grid;grid-template-columns:110px 1fr 210px;gap:24px;padding:24px 0;border-top:1px solid var(--line);align-items:start}.entry:last-child{border-bottom:1px solid var(--line)}
+.entrynum{font:700 30px/1 Georgia,serif;color:var(--gold)}.entrycat{font:800 10px/1.5 ui-monospace,monospace;letter-spacing:.14em;text-transform:uppercase;color:var(--rust)}
+.entry h3{font:500 clamp(27px,3.2vw,43px)/1.1 Georgia,"Songti SC",serif;letter-spacing:-.035em;margin:8px 0 10px}.entry p{margin:0;color:#6a5545;font-size:14px}.entrymeta{font:700 10px/1.7 ui-monospace,monospace;text-transform:uppercase;color:var(--brown2);text-align:right}.entrymeta b{display:block;color:var(--ink);font-size:12px;margin-top:7px}
+.dark{background:var(--brown);color:var(--cream);padding:52px 44px;box-shadow:12px 12px 0 #d4c3a6}.dark .sechead{border-color:#c8ad83}.dark .secnum{color:#e5a475}.dark .sechead p{color:#cfbea6}.darkentry{display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid #806650}.darkentry article{padding:28px 28px 20px 0}.darkentry article+article{border-left:1px solid #806650;padding-left:28px}.darkentry h3{font:500 34px/1.15 Georgia,serif;margin:12px 0}.darkentry p{color:#cdbda7;font-size:14px}.darkentry .meta{color:#d9aa72;font:700 10px/1.7 ui-monospace,monospace;text-transform:uppercase}
+.socialblock{border:1px solid var(--line);background:rgba(251,246,233,.7)}.platform{display:grid;grid-template-columns:140px 1fr;border-top:1px solid var(--line)}.platform:first-child{border-top:0}
+.platformname{padding:20px;border-right:1px solid var(--line);font:700 20px/1 Georgia,serif}.platformname small{display:block;margin-top:8px;font:700 9px/1.5 ui-monospace,monospace;color:var(--rust);letter-spacing:.1em}
+.platformbody{display:grid;grid-template-columns:1fr 1fr}.platformcol{padding:20px}.platformcol+ .platformcol{border-left:1px solid var(--line)}.platformcol h4{margin:0 0 10px;font:800 9px/1.2 ui-monospace,monospace;letter-spacing:.14em;text-transform:uppercase;color:var(--rust)}
+.rankrow{display:grid;grid-template-columns:22px 1fr auto;gap:8px;padding:8px 0;border-top:1px solid rgba(183,169,143,.55);font-size:13px}.rankrow:first-of-type{border-top:0}.rankrow b{font:700 10px/1.5 ui-monospace,monospace;color:var(--gold)}.rankrow em{font-style:normal;color:var(--rust);font:700 9px/1.5 ui-monospace,monospace;white-space:nowrap}
+.partner{margin:0 0 72px;background:#d8b777;color:#2d1c12;border:1px solid #8b663a;padding:36px;display:grid;grid-template-columns:1fr 280px;gap:32px;position:relative;overflow:hidden}.partner:after{content:"SPONSOR";position:absolute;right:-12px;bottom:-50px;font:900 130px/1 ui-monospace,monospace;opacity:.06}.partner h3{font:500 42px/1.05 Georgia,serif;margin:10px 0}.partner p{max-width:720px;font-size:14px}.partner meta{font:700 10px/1.8 ui-monospace,monospace;text-transform:uppercase;border-left:1px solid rgba(45,28,18,.28);padding-left:22px}
+.latest{display:grid;grid-template-columns:repeat(2,1fr);column-gap:30px}.latestrow{display:grid;grid-template-columns:110px 1fr;gap:12px;padding:12px 0;border-top:1px solid var(--line);font-size:14px}.latestrow b{font:800 9px/1.5 ui-monospace,monospace;color:var(--rust);text-transform:uppercase}.latestrow small{display:block;color:#7d6b5a;font-size:10px;margin-top:3px}
+footer{border-top:2px solid var(--brown);padding:22px 0 50px;font:700 10px/1.8 ui-monospace,monospace;text-transform:uppercase;color:#6f5a48;display:flex;justify-content:space-between;gap:20px}
+@media(max-width:850px){.herogrid,.sechead,.entry,.darkentry,.partner{grid-template-columns:1fr}.sechead p{grid-column:auto}.entrymeta{text-align:left}.darkentry article+article{border-left:0;border-top:1px solid #806650;padding-left:0}.platform{grid-template-columns:1fr}.platformname{border-right:0;border-bottom:1px solid var(--line)}.platformbody{grid-template-columns:1fr}.platformcol+ .platformcol{border-left:0;border-top:1px solid var(--line)}.partner meta{border-left:0;border-top:1px solid rgba(45,28,18,.28);padding:15px 0 0}.latest{grid-template-columns:1fr}.herofoot{grid-template-columns:repeat(2,1fr)}.herofoot div:nth-child(2){border-right:0}.herofoot div:first-child{padding-left:16px}footer{flex-direction:column}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap topin"><div><b>DAILY ARCHIVE</b> / ISSUE <span id="issueNo">001</span></div><div id="dateTop">TODAY</div></div></header>
+<section class="hero"><div class="wrap">
+  <div class="herogrid">
+    <div><div class="kicker">One page · today only · curatorial brief</div><h1>Daily<br>Archive<small>今日互联网档案</small></h1><p>把一天里真正值得留下的信息，像工业藏品一样编号、归档、阅读。没有历史入口，只有今天这一册。</p></div>
+    <aside class="heroaside"><div class="catalogno">CATALOGUE OF THE DAY<strong id="dateHero">—</strong><span id="updateHero">—</span></div></aside>
+  </div>
+  <div class="herofoot" id="herofoot"></div>
+</div></section>
+<main class="wrap" id="app"></main>
+<footer class="wrap"><span>ARCHIVE A / 复古工业档案</span><span>同一地址 · 每日覆盖 · 不保留旧页</span></footer>
+<script src="../../daily-data.js"></script><script src="../concept-utils.js"></script><script>
+const C=Concept,app=document.getElementById('app');
+document.getElementById('dateTop').textContent=C.data.date;
+document.getElementById('dateHero').textContent=C.data.date.replaceAll('-','.');
+document.getElementById('updateHero').textContent='LAST UPDATE / '+C.data.updatedAt;
+document.getElementById('issueNo').textContent=String(C.light.length+C.deep.length).padStart(3,'0');
+document.getElementById('herofoot').innerHTML=C.data.profile.main_topics.map(x=>`<div>${C.esc(x)}<small>LIGHT SCAN / 05 MIN</small></div>`).join('');
+const entry=(x,i)=>`<article class="entry"><div class="entrynum">${String(i+1).padStart(2,'0')}</div><div><div class="entrycat">${C.esc(x.category)} / ${C.esc(x.time)} MIN</div><h3><a href="${C.url(x.url)}" target="_blank" rel="noopener">${C.esc(x.title)}</a></h3><p>${C.esc(x.summary)}</p></div><div class="entrymeta">${C.esc(x.source)}${x.publishedText?`<b>${C.esc(x.publishedText)}</b>`:''}</div></article>`;
+const deep=(x,i)=>`<article><div class="meta">PLATE ${String(i+5).padStart(2,'0')} / ${C.esc(x.direction||x.category)}</div><h3><a href="${C.url(x.url)}" target="_blank" rel="noopener">${C.esc(x.title)}</a></h3><p>${C.esc(x.summary)}</p><div class="meta">${C.esc(x.action)}</div></article>`;
+const social=C.platforms.map(p=>`<section class="platform"><div class="platformname">${C.esc(p.platform)}<small>${C.esc(p.source)}</small></div><div class="platformbody"><div class="platformcol"><h4>Most viewed</h4>${(p.hot||[]).slice(0,4).map(x=>`<div class="rankrow"><b>${x.rank}</b><a href="${C.url(x.url)}" target="_blank" rel="noopener">${C.esc(x.title)}</a><em>HOT</em></div>`).join('')}</div><div class="platformcol"><h4>Fastest rising</h4>${(p.fast||[]).slice(0,4).map(x=>`<div class="rankrow"><b>${x.rank}</b><a href="${C.url(x.url)}" target="_blank" rel="noopener">${C.esc(x.title)}</a><em>${C.esc(x.speedLabel||'UP')}</em></div>`).join('')}</div></div></section>`).join('');
+app.innerHTML=`
+<section class="section"><div class="sechead"><div class="secnum">01 / LIGHT SCAN</div><h2>今日信号</h2><p>快速浏览，不展开深读。每一条都可以独立完成。</p></div>${C.light.map(entry).join('')}</section>
+<section class="section dark"><div class="sechead"><div class="secnum">02 / DEEP PRACTICE</div><h2>深度档案</h2><p>两段十五分钟，留下一个动作或一个判断。</p></div><div class="darkentry">${C.deep.map(deep).join('')}</div></section>
+<aside class="partner"><div><div class="kicker">Sponsor object / 原生合作位</div><h3>品牌内容，也像一件被收藏的档案。</h3><p>适合品牌观点、公开研究、产品笔记与数据切片。保持编辑判断，不做弹窗、追踪脚本和自动播放。</p></div><div class="meta">ONE SLOT / ISSUE<br>EDITORIAL CONTEXT<br>NATIVE PRESENTATION<br>NO INTRUSIVE TRACKING</div></aside>
+<section class="section"><div class="sechead"><div class="secnum">03 / SOCIAL INDEX</div><h2>热点索引</h2><p>五站当天的浏览热度与排名变化。</p></div><div class="socialblock">${social}</div></section>
+<section class="section"><div class="sechead"><div class="secnum">04 / FRESH FEEDS</div><h2>最新入库</h2><p>今日选题池。不是必须全部阅读。</p></div><div class="latest">${C.latest.map(x=>`<div class="latestrow"><b>${C.esc(x.source)}</b><div><a href="${C.url(x.url)}" target="_blank" rel="noopener">${C.esc(x.title)}</a><small>${C.esc(x.publishedText)}</small></div></div>`).join('')}</div></section>`;
+</script>
+</body>
+</html>
