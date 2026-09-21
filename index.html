@@ -1,0 +1,526 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f4f0e8">
+  <title>每日互联网简报</title>
+  <meta name="description" content="每天一页，整理 AI、创业、全球、经济、职业技能、人文成长，以及抖音、微博、B站、小红书和 X 的热点与传播趋势。">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://wenrouwenrouliu-cloud.github.io/one-page-daily/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="每日互联网简报">
+  <meta property="og:description" content="今天只读这一页：每天更新的互联网热点、深度阅读和碎片化学习。">
+  <meta property="og:url" content="https://wenrouwenrouliu-cloud.github.io/one-page-daily/">
+  <meta property="og:image" content="https://wenrouwenrouliu-cloud.github.io/one-page-daily/og-cover.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="每日互联网简报">
+  <meta name="twitter:description" content="今天只读这一页：AI、创业、全球、经济、学习与全网热点。">
+  <meta name="twitter:image" content="https://wenrouwenrouliu-cloud.github.io/one-page-daily/og-cover.png">
+  <style>
+    :root {
+      --canvas: #f4f0e8;
+      --paper: #fffdf8;
+      --ink: #11110f;
+      --muted: #68645c;
+      --line: #d8d0c2;
+      --line-strong: #aaa191;
+      --accent: #ff4f2f;
+      --blue: #1f5eff;
+      --yellow: #ffd84d;
+      --green: #0f766e;
+      --violet: #7357ff;
+      --serif: "Iowan Old Style", "Baskerville", "Songti SC", "STSong", Georgia, serif;
+      --sans: "Avenir Next", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      --mono: "SFMono-Regular", "Cascadia Mono", "Roboto Mono", Menlo, monospace;
+      --max: 1320px;
+      --shadow: 0 22px 70px rgba(54, 45, 31, .10);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 5% -5%, rgba(255, 216, 77, .34), transparent 28rem),
+        radial-gradient(circle at 100% 10%, rgba(31, 94, 255, .10), transparent 32rem),
+        var(--canvas);
+      font-family: var(--sans);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; text-decoration-thickness: .08em; text-underline-offset: .2em; }
+    a:hover { color: var(--accent); }
+    button { font: inherit; }
+    img { max-width: 100%; display: block; }
+    .shell { width: min(var(--max), calc(100% - 36px)); margin: 0 auto; }
+    .masthead {
+      position: sticky; top: 0; z-index: 30;
+      border-bottom: 1px solid rgba(170, 161, 145, .52);
+      background: rgba(244, 240, 232, .88);
+      backdrop-filter: blur(18px) saturate(140%);
+    }
+    .masthead-inner { min-height: 68px; display: flex; align-items: center; justify-content: space-between; gap: 22px; }
+    .wordmark { display: flex; align-items: center; gap: 12px; font-family: var(--mono); font-size: 12px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+    .wordmark-dot { width: 11px; height: 11px; border-radius: 50%; background: var(--accent); box-shadow: 21px 0 0 var(--yellow); margin-right: 12px; }
+    .masthead-actions { display: flex; align-items: center; gap: 8px; }
+    .icon-button {
+      border: 1px solid var(--line-strong); border-radius: 999px; background: rgba(255,255,255,.46);
+      color: var(--ink); padding: 8px 13px; cursor: pointer; font-size: 12px; font-weight: 800;
+      transition: transform .18s ease, background .18s ease, border-color .18s ease;
+    }
+    .icon-button:hover { transform: translateY(-1px); border-color: var(--ink); background: var(--paper); }
+    .hero { padding: clamp(44px, 8vw, 108px) 0 44px; }
+    .hero-grid { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(280px, .55fr); gap: clamp(28px, 6vw, 78px); align-items: end; }
+    .eyebrow { display: inline-flex; align-items: center; gap: 10px; color: var(--green); font-family: var(--mono); font-size: 12px; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
+    .eyebrow::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: currentColor; box-shadow: 0 0 0 5px rgba(15,118,110,.10); }
+    h1 { margin: 18px 0 12px; font-family: var(--serif); font-size: clamp(58px, 10vw, 126px); line-height: .88; letter-spacing: -.065em; font-weight: 700; }
+    .hero-deck { max-width: 760px; margin: 25px 0 0; color: var(--muted); font-size: clamp(16px, 2vw, 21px); line-height: 1.65; }
+    .profile-line { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 25px; }
+    .chip { border: 1px solid var(--line); border-radius: 999px; padding: 6px 10px; background: rgba(255,255,255,.58); font-family: var(--mono); font-size: 11px; font-weight: 750; letter-spacing: .04em; }
+    .issue-card { position: relative; overflow: hidden; background: var(--ink); color: var(--paper); border-radius: 24px; padding: 26px; box-shadow: var(--shadow); }
+    .issue-card::after { content: ""; position: absolute; width: 160px; height: 160px; border-radius: 50%; background: var(--blue); right: -85px; top: -92px; opacity: .9; }
+    .issue-label { color: #aca89f; font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; }
+    .issue-date { margin-top: 18px; font-family: var(--serif); font-size: clamp(32px, 4vw, 48px); line-height: 1; letter-spacing: -.04em; }
+    .issue-meta { margin-top: 14px; color: #c8c2b6; font-size: 12px; }
+    .issue-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 9px; margin-top: 24px; padding-top: 18px; border-top: 1px solid #45443f; }
+    .issue-stat strong { display: block; font-family: var(--serif); font-size: 28px; line-height: 1; }
+    .issue-stat span { color: #aca89f; font-size: 11px; }
+    .today-rule { display: flex; align-items: center; justify-content: space-between; gap: 18px; padding: 15px 0; border-top: 2px solid var(--ink); border-bottom: 1px solid var(--line); font-family: var(--mono); font-size: 11px; letter-spacing: .09em; text-transform: uppercase; }
+    .today-rule span:last-child { color: var(--accent); font-weight: 900; }
+    .content-grid { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 42px; align-items: start; padding-top: 42px; }
+    .main-column { min-width: 0; }
+    .side-column { position: sticky; top: 94px; display: grid; gap: 16px; }
+    .section { margin: 0 0 62px; }
+    .section-head { display: flex; align-items: end; justify-content: space-between; gap: 28px; margin-bottom: 19px; }
+    .section-kicker { color: var(--accent); font-family: var(--mono); font-size: 11px; font-weight: 850; letter-spacing: .14em; text-transform: uppercase; }
+    .section h2 { margin: 4px 0 0; font-family: var(--serif); font-size: clamp(34px, 5vw, 58px); line-height: 1; letter-spacing: -.045em; }
+    .section-note { max-width: 360px; margin: 0; color: var(--muted); text-align: right; font-size: 13px; }
+    .signal-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+    .signal-card { position: relative; min-height: 300px; display: flex; flex-direction: column; border: 1px solid var(--line); border-radius: 20px; padding: 23px; background: rgba(255,255,255,.60); }
+    .signal-card.featured { grid-column: 1 / -1; min-height: 340px; background: var(--ink); color: var(--paper); border-color: var(--ink); }
+    .signal-top { display: flex; align-items: center; justify-content: space-between; gap: 14px; color: var(--green); font-family: var(--mono); font-size: 11px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+    .featured .signal-top { color: var(--yellow); }
+    .signal-title { margin: 22px 0 12px; font-family: var(--serif); font-size: clamp(27px, 4.2vw, 50px); line-height: 1.12; letter-spacing: -.035em; }
+    .signal-card:not(.featured) .signal-title { font-size: clamp(24px, 3vw, 34px); }
+    .signal-summary { margin: 0; color: var(--muted); font-size: 14px; }
+    .featured .signal-summary { max-width: 850px; color: #c9c3b7; font-size: 15px; }
+    .signal-footer { display: flex; align-items: center; justify-content: space-between; gap: 18px; margin-top: auto; padding-top: 28px; font-size: 12px; font-weight: 750; }
+    .signal-action { color: var(--accent); }
+    .featured .signal-action { color: #ff9c72; }
+    .source-caption { color: var(--muted); }
+    .featured .source-caption { color: #aaa59c; }
+    .deep-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+    .deep-card { min-height: 355px; display: flex; flex-direction: column; padding: 24px; border-radius: 20px; border: 1px solid var(--line); background: var(--paper); box-shadow: 0 12px 38px rgba(54,45,31,.055); }
+    .deep-card:nth-child(1) { border-top: 7px solid var(--violet); }
+    .deep-card:nth-child(2) { border-top: 7px solid var(--green); }
+    .direction { display: inline-flex; align-self: flex-start; padding: 5px 9px; border-radius: 999px; background: #eee9df; color: var(--muted); font-family: var(--mono); font-size: 10px; font-weight: 800; letter-spacing: .06em; }
+    .deep-card h3 { margin: 18px 0 11px; font-family: var(--serif); font-size: clamp(27px, 3.5vw, 39px); line-height: 1.15; letter-spacing: -.035em; }
+    .deep-card p { margin: 0; color: var(--muted); font-size: 14px; }
+    .deep-bottom { margin-top: auto; padding-top: 25px; border-top: 1px solid var(--line); font-size: 12px; }
+    .deep-bottom strong { display: block; margin-bottom: 6px; color: var(--accent); }
+    .partner-slot {
+      position: relative; overflow: hidden; margin: 0 0 62px; padding: clamp(24px, 4vw, 44px);
+      border: 1px dashed var(--line-strong); border-radius: 22px;
+      background: linear-gradient(135deg, rgba(255,255,255,.75), rgba(255,216,77,.12));
+      display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(240px, .58fr); gap: 34px; align-items: end;
+    }
+    .partner-slot::before { content: ""; position: absolute; width: 150px; height: 150px; right: -70px; top: -75px; border-radius: 50%; background: var(--yellow); opacity: .32; }
+    .partner-label { color: var(--muted); font-family: var(--mono); font-size: 10px; font-weight: 850; letter-spacing: .16em; text-transform: uppercase; }
+    .partner-slot h3 { max-width: 760px; margin: 13px 0 10px; font-family: var(--serif); font-size: clamp(28px, 4vw, 46px); line-height: 1.08; letter-spacing: -.04em; }
+    .partner-slot p { max-width: 720px; margin: 0; color: var(--muted); font-size: 13px; }
+    .partner-meta { display: grid; gap: 8px; padding-left: 20px; border-left: 1px solid var(--line-strong); color: var(--muted); font-family: var(--mono); font-size: 10px; line-height: 1.55; letter-spacing: .04em; text-transform: uppercase; }
+    .social-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+    .social-tab { border: 1px solid var(--line); background: rgba(255,255,255,.55); border-radius: 999px; padding: 7px 11px; cursor: pointer; font-size: 12px; font-weight: 800; }
+    .social-tab.active { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+    .social-panel { border: 1px solid var(--line); border-radius: 22px; background: var(--paper); padding: clamp(20px, 4vw, 32px); box-shadow: 0 14px 44px rgba(54,45,31,.06); }
+    .social-panel-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; margin-bottom: 22px; }
+    .social-panel h3 { margin: 0; font-family: var(--serif); font-size: 38px; line-height: 1; letter-spacing: -.04em; }
+    .social-source { color: var(--muted); font-family: var(--mono); font-size: 10px; text-align: right; }
+    .social-columns { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; }
+    .trend-title { margin: 0 0 10px; color: var(--accent); font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; }
+    .trend-row { display: grid; grid-template-columns: 24px minmax(0, 1fr) auto; gap: 10px; align-items: start; padding: 11px 0; border-top: 1px solid var(--line); }
+    .trend-row:first-of-type { border-top: 0; }
+    .trend-rank { color: var(--muted); font-family: var(--mono); font-size: 11px; padding-top: 3px; }
+    .trend-link { font-weight: 750; font-size: 14px; line-height: 1.45; }
+    .trend-meta { margin-top: 3px; color: var(--muted); font-size: 10px; }
+    .trend-speed { color: var(--green); font-family: var(--mono); font-size: 9px; font-weight: 850; white-space: nowrap; padding-top: 3px; }
+    .social-note { margin: 22px 0 0; padding-top: 15px; border-top: 1px solid var(--line); color: var(--muted); font-size: 11px; }
+    .latest-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+    .latest-row { padding: 15px 0; border-top: 1px solid var(--line); display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 16px; }
+    .latest-source { color: var(--green); font-family: var(--mono); font-size: 10px; font-weight: 800; text-transform: uppercase; }
+    .latest-row h3 { margin: 0; font-size: 15px; line-height: 1.45; }
+    .latest-time { margin-top: 5px; color: var(--muted); font-size: 10px; }
+    .progress-card, .how-card, .share-preview { border: 1px solid var(--line); border-radius: 18px; background: rgba(255,255,255,.68); padding: 18px; }
+    .progress-card h3, .how-card h3 { margin: 0 0 5px; font-family: var(--serif); font-size: 24px; }
+    .progress-card p, .how-card p { margin: 0; color: var(--muted); font-size: 11px; }
+    .progress-track { height: 8px; margin: 15px 0 14px; overflow: hidden; border-radius: 999px; background: #e5ded1; }
+    .progress-fill { height: 100%; width: 0; background: linear-gradient(90deg, var(--accent), var(--yellow)); transition: width .3s ease; }
+    .task-list { display: grid; gap: 7px; }
+    .task { display: grid; grid-template-columns: 18px minmax(0, 1fr) auto; gap: 8px; align-items: start; padding: 8px 0; border-top: 1px solid var(--line); cursor: pointer; }
+    .task:first-child { border-top: 0; }
+    .task input { position: absolute; opacity: 0; pointer-events: none; }
+    .task-check { width: 17px; height: 17px; margin-top: 2px; border: 1.4px solid var(--line-strong); border-radius: 50%; }
+    .task input:checked + .task-check { background: var(--green); border-color: var(--green); }
+    .task input:checked + .task-check::after { content: "✓"; display: block; margin: -4px 0 0 3px; color: white; font-size: 11px; }
+    .task-copy strong { display: block; font-size: 12px; line-height: 1.35; }
+    .task-copy span { color: var(--muted); font-size: 10px; line-height: 1.4; }
+    .task-time { color: var(--accent); font-family: var(--mono); font-size: 9px; font-weight: 850; padding-top: 3px; }
+    .complete-note { display: none; margin-top: 12px; color: var(--green); font-size: 11px; font-weight: 800; }
+    .share-preview img { width: 100%; border-radius: 12px; aspect-ratio: 1200 / 630; object-fit: cover; }
+    .share-preview p { margin: 9px 0 0; color: var(--muted); font-size: 10px; }
+    .source-details { border: 1px solid var(--line); border-radius: 18px; background: rgba(255,255,255,.58); overflow: hidden; }
+    .source-details summary { cursor: pointer; padding: 17px 18px; font-size: 12px; font-weight: 850; list-style: none; }
+    .source-details summary::-webkit-details-marker { display: none; }
+    .source-inner { padding: 0 18px 18px; }
+    .source-group { padding: 12px 0; border-top: 1px solid var(--line); }
+    .source-group h4 { margin: 0 0 6px; color: var(--orange); font-family: var(--mono); font-size: 9px; letter-spacing: .1em; text-transform: uppercase; }
+    .source-link-row { display: grid; grid-template-columns: 1fr auto; gap: 10px; padding: 5px 0; font-size: 11px; }
+    .source-link-row span { color: var(--muted); font-size: 9px; text-align: right; }
+    .footer { margin-top: 22px; padding: 28px 0 52px; border-top: 1px solid var(--line-strong); display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; color: var(--muted); font-size: 11px; }
+    .footer strong { color: var(--ink); }
+    .toast { position: fixed; left: 50%; bottom: 22px; z-index: 50; transform: translate(-50%, 25px); opacity: 0; pointer-events: none; background: var(--ink); color: var(--paper); border-radius: 999px; padding: 10px 16px; font-size: 12px; transition: .22s ease; }
+    .toast.show { opacity: 1; transform: translate(-50%, 0); }
+    .loading, .error-box { padding: 28px; border: 1px solid var(--line); border-radius: 18px; background: var(--paper); }
+    @media (max-width: 1000px) {
+      .hero-grid, .content-grid { grid-template-columns: 1fr; }
+      .side-column { position: static; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .source-details { grid-column: 1 / -1; }
+      .partner-slot { grid-template-columns: 1fr; }
+      .partner-meta { padding-left: 0; padding-top: 16px; border-left: 0; border-top: 1px solid var(--line); }
+    }
+    @media (max-width: 720px) {
+      .shell { width: min(100% - 22px, var(--max)); }
+      .masthead-inner { min-height: 60px; }
+      .wordmark { font-size: 10px; letter-spacing: .1em; }
+      .icon-button { padding: 7px 10px; }
+      .hero { padding-top: 42px; }
+      h1 { font-size: clamp(54px, 18vw, 88px); }
+      .signal-grid, .deep-grid, .latest-grid, .social-columns, .side-column { grid-template-columns: 1fr; }
+      .signal-card.featured { grid-column: auto; }
+      .section-head { align-items: flex-start; flex-direction: column; gap: 8px; }
+      .section-note { text-align: left; }
+      .today-rule { align-items: flex-start; flex-direction: column; gap: 6px; }
+      .social-panel-head { flex-direction: column; }
+      .social-source { text-align: left; }
+      .footer { flex-direction: column; }
+    }
+    @media print {
+      body { background: white; }
+      .masthead, .side-column, .partner-slot, .toast { display: none !important; }
+      .shell { width: 100%; }
+      .hero { padding: 20px 0; }
+      .content-grid { display: block; }
+      .section, .social-panel { break-inside: avoid; }
+      a { text-decoration: none; }
+    }
+  </style>
+</head>
+<body>
+  <header class="masthead">
+    <div class="shell masthead-inner">
+      <div class="wordmark"><span class="wordmark-dot"></span>Daily Internet Brief</div>
+      <div class="masthead-actions">
+        <button class="icon-button" id="shareButton" type="button">分享本页</button>
+        <button class="icon-button" onclick="window.print()" type="button">打印</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="shell">
+    <div id="app"><div class="loading">正在生成今天的页面……</div></div>
+    <footer class="footer">
+      <div><strong>只保留今天。</strong><br>此页故意不提供历史归档。第二天刷新同一地址，会直接覆盖为当天内容。</div>
+      <div id="footerMeta">Daily Internet Brief · 每天 10:30 更新 · 11:00 推送</div>
+    </footer>
+  </main>
+  <div class="toast" id="toast">链接已复制</div>
+
+  <script src="daily-data.js"></script>
+  <script>
+    const data = window.DAILY_BRIEF_DATA;
+    const app = document.getElementById('app');
+    const shareButton = document.getElementById('shareButton');
+    const toast = document.getElementById('toast');
+    let activeSocial = null;
+
+    function esc(value) {
+      return String(value ?? '').replace(/[&<>"']/g, char => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;'
+      })[char]);
+    }
+
+    function safeUrl(value) {
+      try {
+        const url = new URL(value);
+        return ['http:', 'https:'].includes(url.protocol) ? url.href : '#';
+      } catch {
+        return '#';
+      }
+    }
+
+    function progressKey() {
+      return `daily-internet-brief:${data?.date || 'today'}`;
+    }
+
+    function readProgress() {
+      try { return JSON.parse(localStorage.getItem(progressKey()) || '{}'); }
+      catch { return {}; }
+    }
+
+    function saveProgress(progress) {
+      localStorage.setItem(progressKey(), JSON.stringify(progress));
+    }
+
+    function activePlatform() {
+      const platforms = data?.social?.platforms || [];
+      if (!platforms.length) return null;
+      return platforms.find(item => item.platform === activeSocial) || platforms[0];
+    }
+
+    function render() {
+      if (!data) {
+        app.innerHTML = '<div class="error-box">没有找到当天数据。请先运行更新脚本。</div>';
+        return;
+      }
+      const progress = readProgress();
+      const tasks = data.tasks || [];
+      const completed = tasks.filter(task => progress[task.id]).length;
+      const percent = tasks.length ? Math.round(completed / tasks.length * 100) : 0;
+      const recommendations = data.recommendations || [];
+      const light = recommendations.slice(0, 4);
+      const deep = recommendations.slice(4, 6);
+      const platforms = data.social?.platforms || [];
+      const platform = activePlatform();
+      const sourceGroups = (data.sources || []).reduce((groups, source) => {
+        (groups[source.category] ||= []).push(source);
+        return groups;
+      }, {});
+
+      app.innerHTML = `
+        <section class="hero">
+          <div class="hero-grid">
+            <div>
+              <div class="eyebrow">今日刊 · ${esc(data.weekday)}曜日 · 只读今天</div>
+              <h1>每日互联网简报</h1>
+              <p class="hero-deck">把 AI、创业、全球、经济放在轻松浏览里，把职业技能和人文成长留给稍长的阅读时间。整个页面可以拆成一天中的几个碎片时段完成。</p>
+              <div class="profile-line">
+                ${(data.profile?.main_topics || []).map(topic => `<span class="chip">${esc(topic)}</span>`).join('')}
+                <span class="chip">10:30 UPDATE</span>
+                <span class="chip">11:00 PUSH</span>
+              </div>
+            </div>
+            <aside class="issue-card">
+              <div class="issue-label">Today’s Edition</div>
+              <div class="issue-date">${esc(data.dateZh)}</div>
+              <div class="issue-meta">最后更新 ${esc(data.updatedAt)} · Asia/Shanghai</div>
+              <div class="issue-stats">
+                <div class="issue-stat"><strong>${data.stats.minutes}</strong><span>可拆分分钟</span></div>
+                <div class="issue-stat"><strong>${data.stats.reads}</strong><span>今日推荐</span></div>
+                <div class="issue-stat"><strong>${data.stats.sources}</strong><span>来源入口</span></div>
+              </div>
+            </aside>
+          </div>
+        </section>
+
+        <div class="today-rule"><span>Today only / no archive</span><span>${esc(data.date)}</span></div>
+
+        <div class="content-grid">
+          <div class="main-column">
+            <section class="section">
+              <div class="section-head">
+                <div><div class="section-kicker">01 / Morning scan</div><h2>四个信号</h2></div>
+                <p class="section-note">只浏览，不深挖。每条控制在 5 分钟，适合通勤、排队和等待回复时完成。</p>
+              </div>
+              <div class="signal-grid">
+                ${light.map((item, index) => `
+                  <article class="signal-card ${index === 0 ? 'featured' : ''}">
+                    <div class="signal-top"><span>${esc(item.category)}</span><span>${esc(item.time)} MIN</span></div>
+                    <h3 class="signal-title"><a href="${safeUrl(item.url)}" target="_blank" rel="noopener">${esc(item.title)}</a></h3>
+                    <p class="signal-summary">${esc(item.summary)}</p>
+                    <div class="signal-footer">
+                      <span class="source-caption">${esc(item.source)}${item.publishedText ? ` · ${esc(item.publishedText)}` : ''}</span>
+                      <span class="signal-action">${esc(item.action)}</span>
+                    </div>
+                  </article>
+                `).join('')}
+              </div>
+            </section>
+
+            <section class="section">
+              <div class="section-head">
+                <div><div class="section-kicker">02 / Deep practice</div><h2>两段中读</h2></div>
+                <p class="section-note">方向和内容每天随机轮换。目标不是看完，而是读完以后留下一个动作或一个判断。</p>
+              </div>
+              <div class="deep-grid">
+                ${deep.map(item => `
+                  <article class="deep-card">
+                    <span class="direction">${esc(item.direction || item.category)}</span>
+                    <h3><a href="${safeUrl(item.url)}" target="_blank" rel="noopener">${esc(item.title)}</a></h3>
+                    <p>${esc(item.summary)}</p>
+                    <div class="deep-bottom">
+                      <strong>${esc(item.action)}</strong>
+                      ${esc(item.source)} · ${esc(item.time)} 分钟
+                    </div>
+                  </article>
+                `).join('')}
+              </div>
+            </section>
+
+            <aside class="partner-slot" aria-label="合作位">
+              <div>
+                <div class="partner-label">Partner Note · 今日合作位</div>
+                <h3>留给一个与今日主题真正相关的品牌。</h3>
+                <p>适合 60–100 字的品牌观点、一组研究数据、一项工具更新或一篇产品负责人笔记。保持编辑判断，不加入追踪脚本、弹窗或自动播放。</p>
+              </div>
+              <div class="partner-meta">
+                <span>One native slot / issue</span>
+                <span>Editorial context preserved</span>
+                <span>No intrusive tracking</span>
+              </div>
+            </aside>
+
+            <section class="section">
+              <div class="section-head">
+                <div><div class="section-kicker">03 / Social pulse</div><h2>全网热点</h2></div>
+                <p class="section-note">只保留五个平台的当天最火与传播最快内容。页面不保存历史榜单。</p>
+              </div>
+              <div class="social-tabs">
+                ${platforms.map(item => `<button class="social-tab ${platform?.platform === item.platform ? 'active' : ''}" data-platform="${esc(item.platform)}" type="button">${esc(item.platform)}</button>`).join('')}
+              </div>
+              ${platform ? `
+                <article class="social-panel">
+                  <div class="social-panel-head">
+                    <div><h3>${esc(platform.platform)}</h3><div class="trend-title">Today’s pulse</div></div>
+                    <div class="social-source">${esc(platform.source)}<br>${platform.status === 'stale' ? '缓存快照' : `抓取 ${esc(platform.fetchedAt || '')}`}</div>
+                  </div>
+                  <div class="social-columns">
+                    <div>
+                      <div class="trend-title">最火</div>
+                      ${(platform.hot || []).map(item => `
+                        <div class="trend-row">
+                          <span class="trend-rank">${item.rank}</span>
+                          <div><a class="trend-link" href="${safeUrl(item.url)}" target="_blank" rel="noopener">${esc(item.title)}</a><div class="trend-meta">${esc(item.metricText)}</div></div>
+                          <span class="trend-speed">HOT</span>
+                        </div>
+                      `).join('')}
+                    </div>
+                    <div>
+                      <div class="trend-title">传播最快</div>
+                      ${(platform.fast || []).map(item => `
+                        <div class="trend-row">
+                          <span class="trend-rank">${item.rank}</span>
+                          <div><a class="trend-link" href="${safeUrl(item.url)}" target="_blank" rel="noopener">${esc(item.title)}</a><div class="trend-meta">${esc(item.metricText)}</div></div>
+                          <span class="trend-speed">${esc(item.speedLabel || '热度上升')}</span>
+                        </div>
+                      `).join('')}
+                    </div>
+                  </div>
+                  <p class="social-note">${esc(platform.note || '')}</p>
+                </article>
+              ` : ''}
+            </section>
+
+            <section class="section">
+              <div class="section-head">
+                <div><div class="section-kicker">04 / Fresh feeds</div><h2>今日最新</h2></div>
+                <p class="section-note">这是选题池，不要求全部阅读。只从这里挑选真正与当下工作相关的内容。</p>
+              </div>
+              <div class="latest-grid">
+                ${(data.latest || []).map(item => `
+                  <article class="latest-row">
+                    <div class="latest-source">${esc(item.source)}</div>
+                    <div><h3><a href="${safeUrl(item.url)}" target="_blank" rel="noopener">${esc(item.title)}</a></h3><div class="latest-time">${esc(item.publishedText)}</div></div>
+                  </article>
+                `).join('')}
+              </div>
+            </section>
+          </div>
+
+          <aside class="side-column">
+            <section class="progress-card">
+              <h3>今日碎片清单</h3>
+              <p>顺序不重要。点击即打卡，只保存在当前浏览器。</p>
+              <div class="progress-track"><div class="progress-fill" style="width:${percent}%"></div></div>
+              <div class="task-list">
+                ${tasks.map(task => `
+                  <label class="task">
+                    <input type="checkbox" data-task-id="${esc(task.id)}" ${progress[task.id] ? 'checked' : ''}>
+                    <span class="task-check"></span>
+                    <span class="task-copy"><strong>${esc(task.title)}</strong><span>${esc(task.description)}</span></span>
+                    <span class="task-time">${task.time}m</span>
+                  </label>
+                `).join('')}
+              </div>
+              <div class="complete-note" style="display:${percent === 100 ? 'block' : 'none'}">今天这一页完成了。接下来去生活。</div>
+            </section>
+
+            <section class="how-card">
+              <h3>怎么用</h3>
+              <p>先扫四个主方向；等一个完整的 15 分钟，再读职业或人文内容；最后只用三句话输出。</p>
+            </section>
+
+            <section class="share-preview">
+              <img src="og-cover.png" alt="每日互联网简报分享封面">
+              <p>分享给别人时会显示这张封面。网址每天保持不变，内容只呈现当天版本。</p>
+            </section>
+
+            <details class="source-details">
+              <summary>打开长期来源库</summary>
+              <div class="source-inner">
+                ${Object.entries(sourceGroups).map(([category, sources]) => `
+                  <div class="source-group">
+                    <h4>${esc(category)}</h4>
+                    ${sources.map(source => `<div class="source-link-row"><a href="${safeUrl(source.url)}" target="_blank" rel="noopener">${esc(source.name)}</a><span>${esc(source.desc)}</span></div>`).join('')}
+                  </div>
+                `).join('')}
+              </div>
+            </details>
+          </aside>
+        </div>
+      `;
+
+      app.querySelectorAll('input[data-task-id]').forEach(input => {
+        input.addEventListener('change', () => {
+          const current = readProgress();
+          if (input.checked) current[input.dataset.taskId] = true;
+          else delete current[input.dataset.taskId];
+          saveProgress(current);
+          render();
+        });
+      });
+
+      app.querySelectorAll('[data-platform]').forEach(button => {
+        button.addEventListener('click', () => {
+          activeSocial = button.dataset.platform;
+          render();
+        });
+      });
+    }
+
+    async function sharePage() {
+      const url = window.location.href;
+      const payload = {
+        title: '每日互联网简报',
+        text: '今天只读这一页：热点、深度阅读和碎片化学习。',
+        url
+      };
+      try {
+        if (navigator.share) await navigator.share(payload);
+        else await navigator.clipboard.writeText(url);
+        toast.textContent = navigator.share ? '已打开分享面板' : '链接已复制';
+      } catch {
+        toast.textContent = url;
+      }
+      toast.classList.add('show');
+      setTimeout(() => toast.classList.remove('show'), 1800);
+    }
+
+    shareButton.addEventListener('click', sharePage);
+    render();
+  </script>
+</body>
+</html>
