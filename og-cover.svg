@@ -12,7 +12,7 @@
   <circle cx="890" cy="330" r="190" fill="none" stroke="url(#acid)" stroke-width="3" stroke-dasharray="10 12"/><circle cx="890" cy="330" r="105" fill="url(#orb)" opacity=".9"/>
   <path d="M70 485C220 250 350 520 520 300S870 440 1130 165" fill="none" stroke="url(#acid)" stroke-width="9" stroke-linecap="round"/>
   <path d="M70 510C220 275 350 545 520 325S870 465 1130 190" fill="none" stroke="#ff547c" stroke-width="3" opacity=".7"/>
-  <text x="76" y="104" fill="#c9ff45" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="900" letter-spacing="5">DAILY SIGNAL · ONE PAGE TODAY</text>
+  <text x="76" y="104" fill="#c9ff45" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="900" letter-spacing="5">每日信号 · 今天只有一页</text>
   <text x="72" y="285" fill="#f4f8fa" font-family="'PingFang SC','Hiragino Sans GB',sans-serif" font-size="126" font-weight="900" letter-spacing="4">今日信号</text>
   <text x="78" y="340" fill="url(#acid)" font-family="'PingFang SC','Hiragino Sans GB',sans-serif" font-size="30" font-weight="800" letter-spacing="8">中文优先 · 英文原文保留</text>
   <rect x="78" y="390" width="560" height="1" fill="#435260"/>

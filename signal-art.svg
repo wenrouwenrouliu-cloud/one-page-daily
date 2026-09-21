@@ -37,7 +37,7 @@
     <circle cx="95" cy="112" r="5"/><circle cx="675" cy="438" r="6"/><circle cx="520" cy="86" r="4"/><circle cx="246" cy="420" r="4"/>
   </g>
   <g font-family="Arial, Helvetica, sans-serif" font-weight="800" fill="#c9ff45">
-    <text x="42" y="58" font-size="16" letter-spacing="4">LIVE SIGNAL</text>
+    <text x="42" y="58" font-size="16" letter-spacing="4">实时信号</text>
     <text x="548" y="510" font-size="14" letter-spacing="3">10:30 / 11:00</text>
   </g>
 </svg>
