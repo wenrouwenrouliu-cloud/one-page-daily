@@ -84,8 +84,8 @@ window.DAILY_BRIEF_DATA = {
       "summary": "On Equity, we debated whether AI executives are serious about wanting to slow down.",
       "action": "只看标题、导语和关键结论，控制在 5 分钟内。",
       "publishedText": "09-21 02:56",
-      "titleZh": "Is the AI industry really ready to slow down?",
-      "summaryZh": "On Equity, we debated whether AI executives are serious about wanting to slow down."
+      "titleZh": "人工智能行业真的准备好放缓了吗？",
+      "summaryZh": "在股票方面，我们讨论了人工智能高管是否真的想放慢脚步"
     },
     {
       "category": "创业轻浏览",
@@ -97,8 +97,8 @@ window.DAILY_BRIEF_DATA = {
       "summary": "Deeptech company Morphotonics raises €40M from investors including 3M Ventures, Innovation Industries, BOM, and Invest-NL.",
       "action": "抓住公司、融资或产品变化，不展开无关背景。",
       "publishedText": "09-22 14:00",
-      "titleZh": "Morphotonics raises €40M to expand its display tech into data centers",
-      "summaryZh": "Deeptech company Morphotonics raises €40M from investors including 3M Ventures, Innovation Industries, BOM, and Invest-NL."
+      "titleZh": "Morphotonics筹集了4000万欧元，将其显示技术扩展到数据中心",
+      "summaryZh": "Deeptech公司Morphotonics从3M Ventures、Innovation Industries、BOM和Invest-NL等投资者那里筹集了4000万美元€"
     },
     {
       "category": "全球轻浏览",
@@ -110,8 +110,8 @@ window.DAILY_BRIEF_DATA = {
       "summary": "Analysts voices skepticism that Washington and Beijing would reach an accommodation on the proposed AI safety mechanism.",
       "action": "知道发生了什么和各方立场，5 分钟后停止。",
       "publishedText": "09-21 22:10",
-      "titleZh": "Rifts ahead of US-China talks on AI safety",
-      "summaryZh": "Analysts voices skepticism that Washington and Beijing would reach an accommodation on the proposed AI safety mechanism."
+      "titleZh": "在人工智能安全问题美中会谈前出现分歧",
+      "summaryZh": "分析师对华盛顿和北京是否会就拟议的人工智能安全机制达成妥协表示怀疑"
     },
     {
       "category": "经济轻浏览",
@@ -136,8 +136,8 @@ window.DAILY_BRIEF_DATA = {
       "summary": "One often-repeated anecdote about Milton Friedman has the famous economist visiting a canal under construction in nineteen-sixties China. Noticing the sheer number of human laborers digging away with shovels, he asked the official in charge why they weren’t getting the work done faster with excavators and other modern machines. The bureaucrat explained to him that […]",
       "action": "完整读完后，写下 1 个明天就能实践的动作。",
       "publishedText": "09-18 16:00",
-      "titleZh": "Rage Against the Machines: From the Luddites to the AI Data Center Backlash",
-      "summaryZh": "One often-repeated anecdote about Milton Friedman has the famous economist visiting a canal under construction in nineteen-sixties China. Noticing the sheer number of human laborers digging away with shovels, he asked the official in charge why they weren’t getting the work done faster with excavators and other modern machines. The bureaucrat explained to him that […]"
+      "titleZh": "对机器的愤怒：从卢德分子到人工智能数据中心的反弹",
+      "summaryZh": "关于米尔顿·弗里德曼（ Milton Friedman ）的一个经常重复的轶事是，这位着名的经济学家参观了20世纪60年代中国正在建设的运河注意到大量的人工用铲子挖掘，他问负责的官员为什么他们没有用挖掘机和其他现代机器更快地完成工作官僚向他解释说， […]"
     },
     {
       "category": "人文成长",
@@ -149,8 +149,8 @@ window.DAILY_BRIEF_DATA = {
       "summary": "Watching a seated Ozzy play his final gig, my ankle broken, I’m in tears – this couldn’t be more metal - by Keith Kahn-Harris Read on Psyche",
       "action": "完整读完后，写一句自己的判断，不转述原文。",
       "publishedText": "09-21 18:00",
-      "titleZh": "The softness of metal",
-      "summaryZh": "Watching a seated Ozzy play his final gig, my ankle broken, I’m in tears – this couldn’t be more metal - by Keith Kahn-Harris Read on Psyche"
+      "titleZh": "金属的柔软度",
+      "summaryZh": "看着坐着的奥兹演奏他的最后一场演出，我的脚踝骨折了，我泪流满面–这是不可能更多的金属- Keith Kahn-Harris在Psyche上阅读"
     }
   ],
   "latest": [
@@ -160,7 +160,7 @@ window.DAILY_BRIEF_DATA = {
       "url": "https://techcrunch.com/2026/09/21/morphotonics-raises-e40m-as-it-tk-tk-tk-t/",
       "publishedText": "09-22 14:00",
       "category": "technology",
-      "titleZh": "Morphotonics raises €40M to expand its display tech into data centers"
+      "titleZh": "Morphotonics筹集了4000万欧元，将其显示技术扩展到数据中心"
     },
     {
       "source": "Big Think",
@@ -168,7 +168,7 @@ window.DAILY_BRIEF_DATA = {
       "url": "https://bigthink.com/starts-with-a-bang/einstein-greatest-physicist/",
       "publishedText": "09-22 14:00",
       "category": "humanities",
-      "titleZh": "This discovery is why Einstein was history’s greatest physicist"
+      "titleZh": "这就是为什么爱因斯坦是历史上最伟大的物理学家"
     },
     {
       "source": "WIRED",
@@ -176,7 +176,7 @@ window.DAILY_BRIEF_DATA = {
       "url": "https://www.wired.com/story/loop-earplugs-discount-code/",
       "publishedText": "09-22 13:00",
       "category": "technology",
-      "titleZh": "Loop Earplugs Discount Codes: 40% Off"
+      "titleZh": "Loop耳塞折扣码： 40%折扣"
     },
     {
       "source": "MarketWatch",
@@ -184,7 +184,7 @@ window.DAILY_BRIEF_DATA = {
       "url": "https://www.marketwatch.com/story/princetons-15-year-run-as-the-nations-top-college-is-over-mit-is-now-no-1-e9f17169?mod=mw_rss_topstories",
       "publishedText": "09-22 12:02",
       "category": "economy",
-      "titleZh": "Princeton’s 15-year run as the nation’s top college is over. MIT is now No. 1."
+      "titleZh": "普林斯顿大学作为美国顶尖大学的15年生涯已经结束麻省理工学院现在排名第一"
     },
     {
       "source": "Semafor",
@@ -192,7 +192,7 @@ window.DAILY_BRIEF_DATA = {
       "url": "https://www.semafor.com/article/09/21/2026/iran-wars-peacemakers-also-have-skin-in-the-game",
       "publishedText": "09-22 09:05",
       "category": "global",
-      "titleZh": "Iran war’s peacemakers also have skin in the game"
+      "titleZh": "伊朗战争的和平缔造者也有皮肤在游戏中"
     },
     {
       "source": "The Marginalian",
@@ -200,7 +200,7 @@ window.DAILY_BRIEF_DATA = {
       "url": "https://www.themarginalian.org/2026/09/21/wait-frank-partnoy/",
       "publishedText": "09-22 07:57",
       "category": "humanities",
-      "titleZh": "The Science of Waiting and the Art of Delay"
+      "titleZh": "等待的科学和延迟的艺术"
     },
     {
       "source": "The Verge",
@@ -208,7 +208,7 @@ window.DAILY_BRIEF_DATA = {
       "url": "https://www.theverge.com/transportation/998550/a-cut-cable-disrupted-hundreds-of-flights-across-the-us",
       "publishedText": "09-22 07:48",
       "category": "technology",
-      "titleZh": "A cut cable disrupted hundreds of flights across the US"
+      "titleZh": "切断的电缆扰乱了美国各地的数百个航班"
     },
     {
       "source": "Visual Capitalist",
@@ -216,7 +216,7 @@ window.DAILY_BRIEF_DATA = {
       "url": "https://www.visualcapitalist.com/charted-the-historic-shift-in-global-trade-from-west-to-east/",
       "publishedText": "09-22 03:52",
       "category": "economy",
-      "titleZh": "Charted: The 75-Year Shift in Global Exports to Asia"
+      "titleZh": "图表：全球对亚洲出口的75年转变"
     },
     {
       "source": "Longreads",
@@ -224,7 +224,7 @@ window.DAILY_BRIEF_DATA = {
       "url": "https://longreads.com/2026/09/21/homeownership-generational-wealth/",
       "publishedText": "09-22 01:34",
       "category": "humanities",
-      "titleZh": "On Not Being a Homeowner"
+      "titleZh": "关于不是房主"
     },
     {
       "source": "Quanta Magazine",
@@ -232,7 +232,7 @@ window.DAILY_BRIEF_DATA = {
       "url": "https://www.quantamagazine.org/how-virus-like-jumping-genes-became-our-partners-in-evolution-20260921/",
       "publishedText": "09-21 22:12",
       "category": "science",
-      "titleZh": "How Virus-like ‘Jumping Genes’ Became Our Partners in Evolution"
+      "titleZh": "类似病毒的“跳跃基因”如何成为我们进化的合作伙伴"
     },
     {
       "source": "IEEE Spectrum",
@@ -240,7 +240,7 @@ window.DAILY_BRIEF_DATA = {
       "url": "https://spectrum.ieee.org/hermes-shortwave-radio-digital-data",
       "publishedText": "09-21 21:00",
       "category": "science",
-      "titleZh": "This Digital Radio Gets Messages to the World’s Remotest Locations"
+      "titleZh": "这款数字收音机将信息发送到世界上最偏远的地方"
     },
     {
       "source": "MIT Technology Review",
@@ -248,7 +248,7 @@ window.DAILY_BRIEF_DATA = {
       "url": "https://www.technologyreview.com/2026/09/21/1144834/the-download-investigating-deaths-at-the-us-borders-virtual-wall/",
       "publishedText": "09-21 20:20",
       "category": "technology",
-      "titleZh": "The Download: investigating deaths at the US border’s “virtual wall”"
+      "titleZh": "下载：调查美国边境“虚拟墙”上的死亡事件"
     }
   ],
   "social": {
